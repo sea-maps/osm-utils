@@ -1,6 +1,6 @@
 module github.com/sea-maps/osm-utils
 
-go 1.21.0
+go 1.21
 
 require (
 	github.com/montanaflynn/stats v0.7.1
