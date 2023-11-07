@@ -1,0 +1,148 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.76796,
+        "lon": 106.686462,
+        "date_time": "2023-11-02T22:15",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.767117,
+        "lon": 106.687009,
+        "date_time": "2023-11-02T22:15",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive southwest on Bùi Thị Xuân.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then, in 50 meters, Turn left onto Cống Quỳnh.",
+            "verbal_pre_transition_instruction": "Drive southwest on Bùi Thị Xuân. Then, in 50 meters, Turn left onto Cống Quỳnh.",
+            "verbal_post_transition_instruction": "Continue for 50 meters.",
+            "street_names": [
+              "Bùi Thị Xuân"
+            ],
+            "time": 9.178,
+            "length": 0.05,
+            "cost": 11.668,
+            "begin_shape_index": 0,
+            "end_shape_index": 3,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Cống Quỳnh/Cong Quynh Street.",
+            "verbal_transition_alert_instruction": "Turn left onto Cống Quỳnh.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Cống Quỳnh, Cong Quynh Street.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Cống Quỳnh",
+              "Cong Quynh Street"
+            ],
+            "time": 20.412,
+            "length": 0.101,
+            "cost": 27.337,
+            "begin_shape_index": 3,
+            "end_shape_index": 8,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 8,
+            "end_shape_index": 8,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.767205,
+          "min_lon": 106.686246,
+          "max_lat": 10.767928,
+          "max_lon": 106.687053,
+          "time": 29.591,
+          "length": 0.151,
+          "cost": 39.005
+        },
+        "shape": "qbfpScasnjEdM`LpBUjCjBxByGhBW~DaLIsEfIgT"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.767205,
+      "min_lon": 106.686246,
+      "max_lat": 10.767928,
+      "max_lon": 106.687053,
+      "time": 29.591,
+      "length": 0.151,
+      "cost": 39.005
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.767929,
+      106.686498
+    ],
+    [
+      10.767702,
+      106.686289
+    ],
+    [
+      10.767645,
+      106.6863
+    ],
+    [
+      10.767575,
+      106.686246
+    ],
+    [
+      10.767514,
+      106.686387
+    ],
+    [
+      10.767461,
+      106.686399
+    ],
+    [
+      10.767365,
+      106.686608
+    ],
+    [
+      10.76737,
+      106.686714
+    ],
+    [
+      10.767206,
+      106.687054
+    ]
+  ]
+}

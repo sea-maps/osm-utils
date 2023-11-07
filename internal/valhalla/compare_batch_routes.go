@@ -114,6 +114,7 @@ func assertData(expectedJSON string, costingJSON string, valhallaURL string) err
 
 	gotPolyline, err := extractSimplifiedPolylineCoordsFromJSON(string(respJSON))
 	if err != nil {
+		fmt.Println(string(respJSON))
 		return fmt.Errorf("assertData failed to extract polyline from response")
 	}
 
@@ -130,8 +131,8 @@ func assertData(expectedJSON string, costingJSON string, valhallaURL string) err
 		return nil
 	}
 
-	fmt.Println(getStatsDistanceFromRefPoint(gotPolyline))
-	fmt.Println(getStatsDistanceFromRefPoint(expectedPolyline))
+	// fmt.Println(getStatsDistanceFromRefPoint(gotPolyline))
+	// fmt.Println(getStatsDistanceFromRefPoint(expectedPolyline))
 
 	return nil
 }
@@ -159,11 +160,13 @@ func compareBasicSummary(gotJSON string, expectedJSON string) error {
 	expectedLength := gjson.Get(expectedJSON, "trip.summary.length").Float()
 
 	if math.Abs(gotLength-expectedLength) > 0.5 {
+		fmt.Println("got polyline", gjson.Get(gotJSON, "trip.legs.0.shape").String())
 		return fmt.Errorf("length is different, got %f, expected %f", gotLength, expectedLength)
 	}
 
 	percentDifferent := (math.Abs(gotLength-expectedLength) / ((expectedLength + gotLength) / 2)) * 100
 	if percentDifferent > 5 {
+		fmt.Println("got polyline", gjson.Get(gotJSON, "trip.legs.0.shape").String())
 		return fmt.Errorf("length is different by more than 5 percent, got %f, expected %f", gotLength, expectedLength)
 	}
 
@@ -200,7 +203,7 @@ func composeAssertTestInputData(expectJSON string) (*assertTestInputData, error)
 	d.DestinationLat = gjson.Get(expectJSON, "trip.locations.1.lat").Float()
 	d.DestinationLon = gjson.Get(expectJSON, "trip.locations.1.lon").Float()
 	d.CostingMethod = gjson.Get(expectJSON, "trip.legs.0.maneuvers.0.travel_type").String()
-	if d.CostingMethod == "car" {
+	if d.CostingMethod != "motorcycle" {
 		d.CostingMethod = "auto"
 	}
 
@@ -208,7 +211,6 @@ func composeAssertTestInputData(expectJSON string) (*assertTestInputData, error)
 }
 
 func extractSimplifiedPolylineCoordsFromJSON(s string) ([][]float64, error) {
-	coords := [][]float64{}
 	polylineString := gjson.Get(s, "trip.legs.0.shape").String()
 	if len(polylineString) == 0 {
 		return nil, fmt.Errorf("extractSimplifiedPolylineCoordsFromJSON failed to get polyline string")

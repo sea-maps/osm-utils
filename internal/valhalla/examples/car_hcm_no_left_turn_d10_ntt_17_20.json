@@ -1,0 +1,228 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.742468,
+        "lon": 106.710172,
+        "date_time": "2023-11-02T17:20",
+        "side_of_street": "left",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.738568,
+        "lon": 106.710827,
+        "date_time": "2023-11-02T17:22",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 3,
+            "instruction": "Drive south on Đường số 10/Road No. 10.",
+            "verbal_succinct_transition_instruction": "Drive south.",
+            "verbal_pre_transition_instruction": "Drive south on Đường số 10, Road No. 10.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "street_names": [
+              "Road No. 10"
+            ],
+            "begin_street_names": [
+              "Đường số 10",
+              "Road No. 10"
+            ],
+            "time": 55.8,
+            "length": 0.387,
+            "cost": 101.552,
+            "begin_shape_index": 0,
+            "end_shape_index": 12,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Nguyễn Thị Thập.",
+            "verbal_transition_alert_instruction": "Turn right onto Nguyễn Thị Thập.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Nguyễn Thị Thập.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Nguyễn Thị Thập"
+            ],
+            "time": 27.417,
+            "length": 0.138,
+            "cost": 46.393,
+            "begin_shape_index": 12,
+            "end_shape_index": 15,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 13,
+            "instruction": "Make a left U-turn to stay on Nguyễn Thị Thập.",
+            "verbal_transition_alert_instruction": "Make a left U-turn to stay on Nguyễn Thị Thập.",
+            "verbal_succinct_transition_instruction": "Make a left U-turn.",
+            "verbal_pre_transition_instruction": "Make a left U-turn to stay on Nguyễn Thị Thập.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Nguyễn Thị Thập"
+            ],
+            "time": 43.761,
+            "length": 0.272,
+            "cost": 83.167,
+            "begin_shape_index": 15,
+            "end_shape_index": 23,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 23,
+            "end_shape_index": 23,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.738759,
+          "min_lon": 106.708473,
+          "max_lat": 10.742475,
+          "max_lon": 106.710857,
+          "time": 126.979,
+          "length": 0.797,
+          "cost": 231.113
+        },
+        "shape": "uktnSucapjExCL|j@|BdH\\`ENnj@|Afe@xAfBB`CTrV`ClF`@|Z`CbCTUrCmI`aAe@jFfDXd@mFhI}`ATqCZ{DTeCrAkPvEuj@"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.738759,
+      "min_lon": 106.708473,
+      "max_lat": 10.742475,
+      "max_lon": 106.710857,
+      "time": 126.979,
+      "length": 0.797,
+      "cost": 231.113
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.742475,
+      106.710091
+    ],
+    [
+      10.742398,
+      106.710084
+    ],
+    [
+      10.741695,
+      106.710021
+    ],
+    [
+      10.741548,
+      106.710006
+    ],
+    [
+      10.741451,
+      106.709998
+    ],
+    [
+      10.740755,
+      106.709951
+    ],
+    [
+      10.740143,
+      106.709906
+    ],
+    [
+      10.740091,
+      106.709904
+    ],
+    [
+      10.740026,
+      106.709893
+    ],
+    [
+      10.739648,
+      106.709828
+    ],
+    [
+      10.739529,
+      106.709811
+    ],
+    [
+      10.739082,
+      106.709746
+    ],
+    [
+      10.739016,
+      106.709735
+    ],
+    [
+      10.739027,
+      106.709661
+    ],
+    [
+      10.739194,
+      106.708604
+    ],
+    [
+      10.739213,
+      106.708486
+    ],
+    [
+      10.739129,
+      106.708473
+    ],
+    [
+      10.73911,
+      106.708592
+    ],
+    [
+      10.738945,
+      106.709647
+    ],
+    [
+      10.738934,
+      106.70972
+    ],
+    [
+      10.73892,
+      106.709814
+    ],
+    [
+      10.738909,
+      106.709881
+    ],
+    [
+      10.738867,
+      106.710159
+    ],
+    [
+      10.738759,
+      106.710858
+    ]
+  ]
+}

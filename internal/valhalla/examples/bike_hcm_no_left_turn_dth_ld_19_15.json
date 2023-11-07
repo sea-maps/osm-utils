@@ -1,0 +1,164 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.786404,
+        "lon": 106.701761,
+        "date_time": "2023-11-02T19:15",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.785798,
+        "lon": 106.703891,
+        "date_time": "2023-11-02T19:16",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive southeast on Đinh Tiên Hoàng.",
+            "verbal_succinct_transition_instruction": "Drive southeast. Then Turn left onto Lê Duẩn.",
+            "verbal_pre_transition_instruction": "Drive southeast on Đinh Tiên Hoàng. Then Turn left onto Lê Duẩn.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Đinh Tiên Hoàng"
+            ],
+            "time": 29.412,
+            "length": 0.202,
+            "cost": 42.883,
+            "begin_shape_index": 0,
+            "end_shape_index": 9,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Lê Duẩn/Đường Lê Duẩn/Le Duan Boulevard.",
+            "verbal_transition_alert_instruction": "Turn left onto Lê Duẩn.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Lê Duẩn, Đường Lê Duẩn.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Lê Duẩn",
+              "Đường Lê Duẩn",
+              "Le Duan Boulevard"
+            ],
+            "time": 19.025,
+            "length": 0.115,
+            "cost": 29.86,
+            "begin_shape_index": 9,
+            "end_shape_index": 12,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 12,
+            "end_shape_index": 12,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.785129,
+          "min_lon": 106.701783,
+          "max_lat": 10.786427,
+          "max_lon": 106.703792,
+          "time": 48.437,
+          "length": 0.318,
+          "cost": 72.743
+        },
+        "shape": "wfjqSo|pojEbMaNvA{AlOuP`CiCbTkUdAiA|FmGbG_BlCgCaEcEm]s[_JoI"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.785129,
+      "min_lon": 106.701783,
+      "max_lat": 10.786427,
+      "max_lon": 106.703792,
+      "time": 48.437,
+      "length": 0.318,
+      "cost": 72.743
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.786428,
+      106.701784
+    ],
+    [
+      10.786202,
+      106.702025
+    ],
+    [
+      10.786158,
+      106.702071
+    ],
+    [
+      10.785895,
+      106.702354
+    ],
+    [
+      10.78583,
+      106.702423
+    ],
+    [
+      10.785492,
+      106.702781
+    ],
+    [
+      10.785457,
+      106.702818
+    ],
+    [
+      10.78533,
+      106.702953
+    ],
+    [
+      10.7852,
+      106.703001
+    ],
+    [
+      10.785129,
+      106.703069
+    ],
+    [
+      10.785226,
+      106.703167
+    ],
+    [
+      10.785713,
+      106.703625
+    ],
+    [
+      10.785889,
+      106.703793
+    ]
+  ]
+}

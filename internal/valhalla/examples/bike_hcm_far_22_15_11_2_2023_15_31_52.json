@@ -1,0 +1,2684 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.805236,
+        "lon": 106.747237,
+        "date_time": "2023-11-02T22:15",
+        "side_of_street": "left",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.867167,
+        "lon": 106.646098,
+        "date_time": "2023-11-02T22:54",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 3,
+            "instruction": "Drive southeast on Đường Võ Trường Toản/Vo Truong Toan.",
+            "verbal_succinct_transition_instruction": "Drive southeast.",
+            "verbal_pre_transition_instruction": "Drive southeast on Đường Võ Trường Toản, Vo Truong Toan.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Đường Võ Trường Toản",
+              "Vo Truong Toan"
+            ],
+            "time": 48.298,
+            "length": 0.267,
+            "cost": 60.945,
+            "begin_shape_index": 0,
+            "end_shape_index": 13,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đường Võ Nguyên Giáp/Vo Nguyen Giap Boulevard.",
+            "verbal_transition_alert_instruction": "Turn right onto Đường Võ Nguyên Giáp.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Đường Võ Nguyên Giáp, Vo Nguyen Giap Boulevard.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Đường Võ Nguyên Giáp",
+              "Vo Nguyen Giap Boulevard"
+            ],
+            "time": 34.066,
+            "length": 0.266,
+            "cost": 49.9,
+            "begin_shape_index": 13,
+            "end_shape_index": 18,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to stay on Đường Võ Nguyên Giáp/Vo Nguyen Giap Boulevard.",
+            "verbal_transition_alert_instruction": "Keep right to stay on Đường Võ Nguyên Giáp.",
+            "verbal_pre_transition_instruction": "Keep right to stay on Đường Võ Nguyên Giáp, Vo Nguyen Giap Boulevard.",
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "street_names": [
+              "Đường Võ Nguyên Giáp",
+              "Vo Nguyen Giap Boulevard"
+            ],
+            "time": 151.775,
+            "length": 1.473,
+            "cost": 188.012,
+            "begin_shape_index": 18,
+            "end_shape_index": 37,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to stay on Đường Võ Nguyên Giáp/Vo Nguyen Giap Boulevard.",
+            "verbal_transition_alert_instruction": "Keep right to stay on Đường Võ Nguyên Giáp.",
+            "verbal_pre_transition_instruction": "Keep right to stay on Đường Võ Nguyên Giáp, Vo Nguyen Giap Boulevard. Then Keep right to stay on Đường Võ Nguyên Giáp.",
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "street_names": [
+              "Đường Võ Nguyên Giáp",
+              "Vo Nguyen Giap Boulevard"
+            ],
+            "time": 9.514,
+            "length": 0.092,
+            "cost": 12.701,
+            "begin_shape_index": 37,
+            "end_shape_index": 40,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to stay on Đường Võ Nguyên Giáp/Vo Nguyen Giap Boulevard.",
+            "verbal_transition_alert_instruction": "Keep right to stay on Đường Võ Nguyên Giáp.",
+            "verbal_pre_transition_instruction": "Keep right to stay on Đường Võ Nguyên Giáp, Vo Nguyen Giap Boulevard.",
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "street_names": [
+              "Đường Võ Nguyên Giáp",
+              "Vo Nguyen Giap Boulevard"
+            ],
+            "time": 189.344,
+            "length": 1.399,
+            "cost": 225.821,
+            "begin_shape_index": 40,
+            "end_shape_index": 61,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to take Điện Biên Phủ.",
+            "verbal_transition_alert_instruction": "Keep right to take Điện Biên Phủ.",
+            "verbal_pre_transition_instruction": "Keep right to take Điện Biên Phủ.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "street_names": [
+              "Điện Biên Phủ"
+            ],
+            "time": 59.073,
+            "length": 0.425,
+            "cost": 69.16,
+            "begin_shape_index": 61,
+            "end_shape_index": 72,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 24,
+            "instruction": "Keep left to stay on Điện Biên Phủ.",
+            "verbal_transition_alert_instruction": "Keep left to stay on Điện Biên Phủ.",
+            "verbal_pre_transition_instruction": "Keep left to stay on Điện Biên Phủ.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Điện Biên Phủ"
+            ],
+            "time": 30.063,
+            "length": 0.292,
+            "cost": 38.443,
+            "begin_shape_index": 72,
+            "end_shape_index": 76,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto Điện Biên Phủ/Dien Bien Phu Road.",
+            "verbal_transition_alert_instruction": "Bear right onto Điện Biên Phủ.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_pre_transition_instruction": "Bear right onto Điện Biên Phủ, Dien Bien Phu Road.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Điện Biên Phủ",
+              "Dien Bien Phu Road"
+            ],
+            "time": 24.413,
+            "length": 0.145,
+            "cost": 32.621,
+            "begin_shape_index": 76,
+            "end_shape_index": 80,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Xô Viết Nghệ Tĩnh.",
+            "verbal_transition_alert_instruction": "Turn right onto Xô Viết Nghệ Tĩnh.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Xô Viết Nghệ Tĩnh.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Xô Viết Nghệ Tĩnh"
+            ],
+            "time": 32.055,
+            "length": 0.192,
+            "cost": 44.909,
+            "begin_shape_index": 80,
+            "end_shape_index": 94,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left toward Chợ Bà Chiểu/Ngã tư Phú Nhuận.",
+            "verbal_transition_alert_instruction": "Turn left toward Chợ Bà Chiểu.",
+            "verbal_succinct_transition_instruction": "Turn left toward Chợ Bà Chiểu, Ngã tư Phú Nhuận.",
+            "verbal_pre_transition_instruction": "Turn left toward Chợ Bà Chiểu, Ngã tư Phú Nhuận.",
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "street_names": [
+              "Đường Bạch Đằng"
+            ],
+            "time": 209.692,
+            "length": 1.435,
+            "cost": 249.111,
+            "begin_shape_index": 94,
+            "end_shape_index": 135,
+            "sign": {
+              
+            },
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Lê Quang Định.",
+            "verbal_transition_alert_instruction": "Turn right onto Lê Quang Định.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Lê Quang Định.",
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "street_names": [
+              "Lê Quang Định"
+            ],
+            "time": 345.414,
+            "length": 2.332,
+            "cost": 434.242,
+            "begin_shape_index": 135,
+            "end_shape_index": 241,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left to stay on Lê Quang Định.",
+            "verbal_transition_alert_instruction": "Turn left to stay on Lê Quang Định.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Enter the roundabout and take the 2nd exit onto Lê Quang Định.",
+            "verbal_pre_transition_instruction": "Turn left to stay on Lê Quang Định. Then Enter the roundabout and take the 2nd exit onto Lê Quang Định.",
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "street_names": [
+              "Lê Quang Định"
+            ],
+            "time": 7.557,
+            "length": 0.036,
+            "cost": 8.081,
+            "begin_shape_index": 241,
+            "end_shape_index": 245,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter the roundabout and take the 2nd exit onto Lê Quang Định.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit onto Lê Quang Định.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit onto Lê Quang Định.",
+            "time": 16.665,
+            "length": 0.059,
+            "cost": 26.368,
+            "begin_shape_index": 245,
+            "end_shape_index": 256,
+            "roundabout_exit_count": 2,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 27,
+            "instruction": "Exit the roundabout onto Lê Quang Định.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Lê Quang Định.",
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "street_names": [
+              "Lê Quang Định"
+            ],
+            "time": 601.764,
+            "length": 4.088,
+            "cost": 750.163,
+            "begin_shape_index": 256,
+            "end_shape_index": 431,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto Lê Văn Thọ.",
+            "verbal_transition_alert_instruction": "Bear right onto Lê Văn Thọ.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_pre_transition_instruction": "Bear right onto Lê Văn Thọ.",
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "street_names": [
+              "Lê Văn Thọ"
+            ],
+            "time": 300.471,
+            "length": 2.047,
+            "cost": 368.088,
+            "begin_shape_index": 431,
+            "end_shape_index": 509,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đường Lê Văn Thọ.",
+            "verbal_transition_alert_instruction": "Turn right onto Đường Lê Văn Thọ.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Đường Lê Đức Thọ.",
+            "verbal_pre_transition_instruction": "Turn right onto Đường Lê Văn Thọ. Then Turn left onto Đường Lê Đức Thọ.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "street_names": [
+              "Đường Lê Văn Thọ"
+            ],
+            "time": 4.632,
+            "length": 0.023,
+            "cost": 8.584,
+            "begin_shape_index": 509,
+            "end_shape_index": 512,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Đường Lê Đức Thọ.",
+            "verbal_transition_alert_instruction": "Turn left onto Đường Lê Đức Thọ.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Đường Lê Đức Thọ.",
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "street_names": [
+              "Đường Lê Đức Thọ"
+            ],
+            "time": 208.258,
+            "length": 1.428,
+            "cost": 273.781,
+            "begin_shape_index": 512,
+            "end_shape_index": 554,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Nguyễn Thị Kiểu.",
+            "verbal_transition_alert_instruction": "Turn left onto Nguyễn Thị Kiểu.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Nguyễn Thị Kiểu.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "street_names": [
+              "Nguyễn Thị Kiểu"
+            ],
+            "time": 81.837,
+            "length": 0.451,
+            "cost": 111.64,
+            "begin_shape_index": 554,
+            "end_shape_index": 570,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 570,
+            "end_shape_index": 570,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.797979,
+          "min_lon": 106.646098,
+          "max_lat": 10.867167,
+          "max_lon": 106.748256,
+          "time": 2354.899,
+          "length": 16.45,
+          "cost": 2952.578
+        },
+        "shape": "cvnrSyqirjE|BaDfDsB|DaCjHuDbTgItJ{CvMkE`J}CrZcKbA_@r@e@bDeArLyDzMznArB|Tl@lEdFhGbFh]u@ze@dEh`@bIru@lAhLrHjp@lDz`@|KrdAl@zF~J|~@tTxrB~Pv|AbCjUdBdPdTfsB`Gda@vBdItDpEjFh^nAxKVpM~AhMbDrUUdIrxAr`NhLtfAxAxOzAfT~EhJgBr`@eAxM_AxIeAdG}ApIaFtQiCvHk@rA{@vBqBdEaBvCqEbGkCjFoDtIiEnJmI~IaExG_OnY}ItRaD|GiFrMgBnEaX~q@yDxLoCxWwL~[qSbz@iMjl@oHna@cDxRsBdEcAxI{C~c@[tZsArFc@zFk@xCiBbFgBxBiBbBqApAs@t@cDnC_DdAwEhBwQGqQGyElAY`Ko@pQkAr\\MvDc@zL_Bre@SvFQbGc@`NkAz^EvAg@|OC~@c@jNg@vOaA~ZsAb^i@bUi@bPEtA_@`LgAf]iAb^g@tOUjHa@dMaBjh@{BjV{AlPyBxLgDzReK|l@r@xH|@~CrFtRr@dCnNbg@dSfq@xJj[dBpFfH`WyMbHi[pCuHn@qYdDkZrEsNxBuW~GoHrBwGdFaBnAuFhEiInGcHnFyHvEgObJcJxEkQ|JkEbEcT`S{Zv\\_IzIsQtPkB|@Yj@eBlDIfB}BtGoGjQkIpSqEnLmDxHoEtKyMfTaDhFcC|DmCnEoD~F{FrJwGhIkBrAuCpBeZfN}DxBuGjDaEvBoD~AoE|Fs@fD]~AiCjScAlGgCtJ_AhC}BhCoD|D{W`NwIfGcGxCqCtAaAl@mKrGs@VeLnG}LnGoZ~HuCh@eQnAwEZkBRyVtC{BXiAPgD\\eDl@wH|AkCd@aEv@aF`BoBn@sBbAm@l@kFdFgFfH{EdGkKhJsBbAiUpK_P|B{FAyZGo@WgCcAuCiAwZuLkRaGqV_JeHiCcVoJuDiAyHmEKaAsG_EwCsH{@yCs@oFwAyEkCeBgCAoCd@iDbBk@i@sAq@{A[eBEcBT{Al@{AtA}@lBYzB@bAJ`AmEKqEfAoCn@_ElCcI~DkCr@aGrFaGjHaKdLgBjCcDhBmHtCeBt@aGrBgPhG_LlFcDrCkFbCiOzFcNnFkWxJaE~B{KjHuFrEo@f@oClDcJlLgVv^yRnYk@lA}@jBeJrL{GxIu@dAwBvC_DlEiA|AaC~CwFhIiG|K_BhDaBlDiErJg@fAc@dAwD~JqAlDk@hAi@bAyAhDgDhGa@l@gAzAgFpHU\\wFdI_D`E}DzFsAtCa@jAiBbFuAbIMhAgBpSo@rHWnD{BpYDd@fAvMNtA~@|HP|AdArG~@dSRnEIrDc@fUMjAqAtJeBdMc@lFkCrFm@rBe@|Au@~CqAxB]n@g@hAk@|AiEhRyBjIU`AK^k@xBwBrJ_V`eA}@hEyEhRa@~AQp@a@lBmJxa@wAjGmFxTmHnZmOdo@oCbL{FtTy@`DaWrbAqAlFw@|CuBhIeMhd@gIzVsAdDm@~AoOv^}DnJiPj`@eIzQgHtPmBfDqAzBqBlDaHjKaC~CkEfFw\\fd@yBpC{SnYaBzBeWt]_JxMuB~CuCbEaDrEyLpPgNhRyC~DiBbCkGnI_BtBqJpMyFvHkEjGoAfBcF`HuPzU{JjNmCjF_FrJmFdLm@lAi@zAg@pAoAlD}Rre@oC`HmHbXeC~IgA`EwB`LcBnI_EvSgH|b@aEhV{Gba@k@hDcBlKsBpLaCtNeKho@mC~PqElZuDnBma@~GmOdC{AVaFx@uU`EcXrEiCb@aAPo@JiJ~AgJ~AyJbBqLpBcIdAsn@dI{@JaRrByDd@_Gp@gBNmNpAkN`AoGRoHZeBDoFPsL`@iFJcA@iBBsM?eK@qA?{Wj@kGL}OXeBDmGLyT`@}FJmPZ}RL{DBmo@`Biq@l@iH\\gTnAw]h@_S|@i@@iBF}N`@mBT{WnCuMjBgLtAaJ~A_VjFib@rIyTxEsN`CoEv@mB\\iCDkJEoP?_JB{BBeZd@gILmb@n@qDF_`@j@{NT_BFu~@|CqAFsBcCi@kAuA}B{I`GwNnJgLrLgAlAkX~YcOtPyMhOkO~Pi@j@{XrZqPzPmXvWyEdF{q@js@oOlPwLlM{GdHiJnJ_KjK}J~JuPhReVtVuHlHmH~Eg@RoF~BaEj@s[|BiT@yC@eMVyHT_EFsCH_BFsf@lA{BfCsDD}j@hAgKR_P^}a@~@kYho@{DvIsAxC}DnIgDhHcIbRoGbJiSx\\aA~AwIzOyAfC{GvLuElIYh@qLxSaBvC"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.797979,
+      "min_lon": 106.646098,
+      "max_lat": 10.867167,
+      "max_lon": 106.748256,
+      "time": 2354.899,
+      "length": 16.45,
+      "cost": 2952.578
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.805106,
+      106.747181
+    ],
+    [
+      10.805043,
+      106.747262
+    ],
+    [
+      10.804959,
+      106.74732
+    ],
+    [
+      10.804864,
+      106.747385
+    ],
+    [
+      10.804714,
+      106.747476
+    ],
+    [
+      10.804376,
+      106.74764
+    ],
+    [
+      10.804189,
+      106.747718
+    ],
+    [
+      10.803953,
+      106.74782
+    ],
+    [
+      10.803776,
+      106.747899
+    ],
+    [
+      10.803334,
+      106.748093
+    ],
+    [
+      10.8033,
+      106.748109
+    ],
+    [
+      10.803274,
+      106.748128
+    ],
+    [
+      10.803192,
+      106.748163
+    ],
+    [
+      10.802974,
+      106.748256
+    ],
+    [
+      10.802736,
+      106.746978
+    ],
+    [
+      10.802678,
+      106.746627
+    ],
+    [
+      10.802655,
+      106.746524
+    ],
+    [
+      10.80254,
+      106.746391
+    ],
+    [
+      10.802426,
+      106.745906
+    ],
+    [
+      10.802453,
+      106.745284
+    ],
+    [
+      10.802354,
+      106.744751
+    ],
+    [
+      10.802192,
+      106.743877
+    ],
+    [
+      10.802153,
+      106.743664
+    ],
+    [
+      10.801999,
+      106.742874
+    ],
+    [
+      10.801912,
+      106.742332
+    ],
+    [
+      10.801705,
+      106.741218
+    ],
+    [
+      10.801682,
+      106.741092
+    ],
+    [
+      10.80149,
+      106.740069
+    ],
+    [
+      10.801143,
+      106.738216
+    ],
+    [
+      10.800855,
+      106.736716
+    ],
+    [
+      10.800789,
+      106.736358
+    ],
+    [
+      10.800738,
+      106.736083
+    ],
+    [
+      10.800399,
+      106.734223
+    ],
+    [
+      10.80027,
+      106.733676
+    ],
+    [
+      10.80021,
+      106.733513
+    ],
+    [
+      10.800119,
+      106.733408
+    ],
+    [
+      10.800001,
+      106.732907
+    ],
+    [
+      10.799961,
+      106.732702
+    ],
+    [
+      10.799949,
+      106.732469
+    ],
+    [
+      10.799901,
+      106.73224
+    ],
+    [
+      10.799819,
+      106.731878
+    ],
+    [
+      10.79983,
+      106.731715
+    ],
+    [
+      10.798396,
+      106.724009
+    ],
+    [
+      10.798183,
+      106.722862
+    ],
+    [
+      10.798138,
+      106.722593
+    ],
+    [
+      10.798092,
+      106.722253
+    ],
+    [
+      10.79798,
+      106.722072
+    ],
+    [
+      10.798032,
+      106.721534
+    ],
+    [
+      10.798067,
+      106.721297
+    ],
+    [
+      10.798099,
+      106.721124
+    ],
+    [
+      10.798134,
+      106.720993
+    ],
+    [
+      10.798181,
+      106.720824
+    ],
+    [
+      10.798294,
+      106.720525
+    ],
+    [
+      10.798363,
+      106.720369
+    ],
+    [
+      10.798385,
+      106.720327
+    ],
+    [
+      10.798415,
+      106.720267
+    ],
+    [
+      10.798472,
+      106.720168
+    ],
+    [
+      10.798521,
+      106.720092
+    ],
+    [
+      10.798626,
+      106.719962
+    ],
+    [
+      10.798696,
+      106.719844
+    ],
+    [
+      10.798784,
+      106.719673
+    ],
+    [
+      10.798885,
+      106.719489
+    ],
+    [
+      10.799052,
+      106.719313
+    ],
+    [
+      10.799149,
+      106.719172
+    ],
+    [
+      10.799405,
+      106.718748
+    ],
+    [
+      10.79958,
+      106.718433
+    ],
+    [
+      10.799661,
+      106.71829
+    ],
+    [
+      10.799778,
+      106.718056
+    ],
+    [
+      10.79983,
+      106.717952
+    ],
+    [
+      10.800231,
+      106.717136
+    ],
+    [
+      10.800324,
+      106.716915
+    ],
+    [
+      10.800396,
+      106.716518
+    ],
+    [
+      10.800616,
+      106.716054
+    ],
+    [
+      10.800945,
+      106.715108
+    ],
+    [
+      10.801174,
+      106.714382
+    ],
+    [
+      10.801326,
+      106.71383
+    ],
+    [
+      10.801408,
+      106.713513
+    ],
+    [
+      10.801466,
+      106.713414
+    ],
+    [
+      10.8015,
+      106.713241
+    ],
+    [
+      10.801578,
+      106.712649
+    ],
+    [
+      10.801592,
+      106.712206
+    ],
+    [
+      10.801634,
+      106.712084
+    ],
+    [
+      10.801652,
+      106.711958
+    ],
+    [
+      10.801674,
+      106.711881
+    ],
+    [
+      10.801727,
+      106.711767
+    ],
+    [
+      10.801779,
+      106.711706
+    ],
+    [
+      10.801832,
+      106.711656
+    ],
+    [
+      10.801873,
+      106.711615
+    ],
+    [
+      10.801899,
+      106.711588
+    ],
+    [
+      10.801981,
+      106.711516
+    ],
+    [
+      10.802061,
+      106.711481
+    ],
+    [
+      10.802169,
+      106.711428
+    ],
+    [
+      10.802469,
+      106.711432
+    ],
+    [
+      10.802766,
+      106.711436
+    ],
+    [
+      10.802875,
+      106.711397
+    ],
+    [
+      10.802888,
+      106.711204
+    ],
+    [
+      10.802912,
+      106.710907
+    ],
+    [
+      10.80295,
+      106.710433
+    ],
+    [
+      10.802957,
+      106.710341
+    ],
+    [
+      10.802975,
+      106.710119
+    ],
+    [
+      10.803023,
+      106.709501
+    ],
+    [
+      10.803033,
+      106.709377
+    ],
+    [
+      10.803042,
+      106.709247
+    ],
+    [
+      10.80306,
+      106.709006
+    ],
+    [
+      10.803098,
+      106.708496
+    ],
+    [
+      10.803101,
+      106.708452
+    ],
+    [
+      10.803121,
+      106.708181
+    ],
+    [
+      10.803123,
+      106.708149
+    ],
+    [
+      10.803141,
+      106.707903
+    ],
+    [
+      10.803161,
+      106.707635
+    ],
+    [
+      10.803194,
+      106.707187
+    ],
+    [
+      10.803236,
+      106.706689
+    ],
+    [
+      10.803257,
+      106.706335
+    ],
+    [
+      10.803278,
+      106.706061
+    ],
+    [
+      10.803281,
+      106.706018
+    ],
+    [
+      10.803297,
+      106.705809
+    ],
+    [
+      10.803333,
+      106.705325
+    ],
+    [
+      10.80337,
+      106.704827
+    ],
+    [
+      10.80339,
+      106.70456
+    ],
+    [
+      10.803401,
+      106.70441
+    ],
+    [
+      10.803418,
+      106.704183
+    ],
+    [
+      10.803467,
+      106.703521
+    ],
+    [
+      10.803529,
+      106.703147
+    ],
+    [
+      10.803575,
+      106.702868
+    ],
+    [
+      10.803636,
+      106.702647
+    ],
+    [
+      10.80372,
+      106.702329
+    ],
+    [
+      10.803915,
+      106.701594
+    ],
+    [
+      10.803889,
+      106.701437
+    ],
+    [
+      10.803858,
+      106.701357
+    ],
+    [
+      10.803736,
+      106.701042
+    ],
+    [
+      10.80371,
+      106.700975
+    ],
+    [
+      10.803462,
+      106.700333
+    ],
+    [
+      10.803139,
+      106.699529
+    ],
+    [
+      10.80295,
+      106.699075
+    ],
+    [
+      10.802899,
+      106.698954
+    ],
+    [
+      10.802751,
+      106.698569
+    ],
+    [
+      10.802988,
+      106.698423
+    ],
+    [
+      10.803441,
+      106.69835
+    ],
+    [
+      10.803596,
+      106.698326
+    ],
+    [
+      10.804021,
+      106.698243
+    ],
+    [
+      10.804459,
+      106.698137
+    ],
+    [
+      10.804709,
+      106.698076
+    ],
+    [
+      10.805104,
+      106.697932
+    ],
+    [
+      10.805256,
+      106.697874
+    ],
+    [
+      10.805396,
+      106.697759
+    ],
+    [
+      10.805445,
+      106.697719
+    ],
+    [
+      10.805568,
+      106.697618
+    ],
+    [
+      10.805733,
+      106.697482
+    ],
+    [
+      10.805879,
+      106.697362
+    ],
+    [
+      10.806036,
+      106.697254
+    ],
+    [
+      10.806296,
+      106.697076
+    ],
+    [
+      10.806474,
+      106.696967
+    ],
+    [
+      10.806768,
+      106.696776
+    ],
+    [
+      10.80687,
+      106.696678
+    ],
+    [
+      10.807208,
+      106.696357
+    ],
+    [
+      10.807654,
+      106.695881
+    ],
+    [
+      10.807814,
+      106.695707
+    ],
+    [
+      10.808112,
+      106.695424
+    ],
+    [
+      10.808166,
+      106.695393
+    ],
+    [
+      10.808179,
+      106.695371
+    ],
+    [
+      10.80823,
+      106.695284
+    ],
+    [
+      10.808235,
+      106.695232
+    ],
+    [
+      10.808298,
+      106.695093
+    ],
+    [
+      10.808434,
+      106.694799
+    ],
+    [
+      10.8086,
+      106.69447
+    ],
+    [
+      10.808705,
+      106.694254
+    ],
+    [
+      10.808792,
+      106.694097
+    ],
+    [
+      10.808896,
+      106.693894
+    ],
+    [
+      10.809133,
+      106.693554
+    ],
+    [
+      10.809214,
+      106.693437
+    ],
+    [
+      10.80928,
+      106.693342
+    ],
+    [
+      10.809351,
+      106.693238
+    ],
+    [
+      10.809439,
+      106.69311
+    ],
+    [
+      10.809565,
+      106.692924
+    ],
+    [
+      10.809705,
+      106.692759
+    ],
+    [
+      10.809759,
+      106.692717
+    ],
+    [
+      10.809834,
+      106.69266
+    ],
+    [
+      10.810269,
+      106.692416
+    ],
+    [
+      10.810364,
+      106.692355
+    ],
+    [
+      10.810503,
+      106.692269
+    ],
+    [
+      10.8106,
+      106.692209
+    ],
+    [
+      10.810688,
+      106.692161
+    ],
+    [
+      10.810792,
+      106.692034
+    ],
+    [
+      10.810818,
+      106.69195
+    ],
+    [
+      10.810833,
+      106.691902
+    ],
+    [
+      10.810902,
+      106.691576
+    ],
+    [
+      10.810936,
+      106.691441
+    ],
+    [
+      10.811004,
+      106.691254
+    ],
+    [
+      10.811036,
+      106.691185
+    ],
+    [
+      10.811099,
+      106.691116
+    ],
+    [
+      10.811187,
+      106.691021
+    ],
+    [
+      10.811585,
+      106.69078
+    ],
+    [
+      10.811757,
+      106.690648
+    ],
+    [
+      10.811887,
+      106.690571
+    ],
+    [
+      10.81196,
+      106.690528
+    ],
+    [
+      10.811993,
+      106.690505
+    ],
+    [
+      10.812192,
+      106.690367
+    ],
+    [
+      10.812218,
+      106.690355
+    ],
+    [
+      10.812429,
+      106.690219
+    ],
+    [
+      10.812652,
+      106.690083
+    ],
+    [
+      10.813092,
+      106.689923
+    ],
+    [
+      10.813167,
+      106.689902
+    ],
+    [
+      10.813458,
+      106.689862
+    ],
+    [
+      10.813566,
+      106.689848
+    ],
+    [
+      10.81362,
+      106.689838
+    ],
+    [
+      10.814001,
+      106.689763
+    ],
+    [
+      10.814063,
+      106.68975
+    ],
+    [
+      10.8141,
+      106.689741
+    ],
+    [
+      10.814184,
+      106.689726
+    ],
+    [
+      10.814267,
+      106.689703
+    ],
+    [
+      10.814423,
+      106.689656
+    ],
+    [
+      10.814493,
+      106.689637
+    ],
+    [
+      10.81459,
+      106.689609
+    ],
+    [
+      10.814703,
+      106.68956
+    ],
+    [
+      10.814759,
+      106.689536
+    ],
+    [
+      10.814817,
+      106.689502
+    ],
+    [
+      10.81484,
+      106.689479
+    ],
+    [
+      10.814958,
+      106.689364
+    ],
+    [
+      10.815074,
+      106.689216
+    ],
+    [
+      10.815184,
+      106.689085
+    ],
+    [
+      10.815382,
+      106.688904
+    ],
+    [
+      10.81544,
+      106.68887
+    ],
+    [
+      10.815797,
+      106.688669
+    ],
+    [
+      10.816069,
+      106.688606
+    ],
+    [
+      10.816195,
+      106.688607
+    ],
+    [
+      10.81664,
+      106.688611
+    ],
+    [
+      10.816664,
+      106.688623
+    ],
+    [
+      10.816732,
+      106.688657
+    ],
+    [
+      10.816807,
+      106.688694
+    ],
+    [
+      10.817251,
+      106.688913
+    ],
+    [
+      10.817561,
+      106.689042
+    ],
+    [
+      10.817938,
+      106.689218
+    ],
+    [
+      10.818085,
+      106.689287
+    ],
+    [
+      10.818455,
+      106.689471
+    ],
+    [
+      10.818546,
+      106.689508
+    ],
+    [
+      10.818703,
+      106.689611
+    ],
+    [
+      10.818709,
+      106.689644
+    ],
+    [
+      10.818847,
+      106.68974
+    ],
+    [
+      10.818923,
+      106.689894
+    ],
+    [
+      10.818953,
+      106.689971
+    ],
+    [
+      10.818979,
+      106.690091
+    ],
+    [
+      10.819023,
+      106.6902
+    ],
+    [
+      10.819093,
+      106.690251
+    ],
+    [
+      10.819161,
+      106.690252
+    ],
+    [
+      10.819233,
+      106.690233
+    ],
+    [
+      10.819318,
+      106.690183
+    ],
+    [
+      10.81934,
+      106.690204
+    ],
+    [
+      10.819382,
+      106.690229
+    ],
+    [
+      10.819428,
+      106.690243
+    ],
+    [
+      10.819479,
+      106.690246
+    ],
+    [
+      10.819529,
+      106.690235
+    ],
+    [
+      10.819575,
+      106.690212
+    ],
+    [
+      10.819621,
+      106.690169
+    ],
+    [
+      10.819652,
+      106.690114
+    ],
+    [
+      10.819665,
+      106.690052
+    ],
+    [
+      10.819664,
+      106.690018
+    ],
+    [
+      10.819658,
+      106.689985
+    ],
+    [
+      10.819761,
+      106.689991
+    ],
+    [
+      10.819866,
+      106.689955
+    ],
+    [
+      10.819938,
+      106.689931
+    ],
+    [
+      10.820034,
+      106.68986
+    ],
+    [
+      10.820196,
+      106.689764
+    ],
+    [
+      10.820266,
+      106.689738
+    ],
+    [
+      10.820395,
+      106.689616
+    ],
+    [
+      10.820524,
+      106.689466
+    ],
+    [
+      10.820717,
+      106.689255
+    ],
+    [
+      10.820769,
+      106.689185
+    ],
+    [
+      10.820851,
+      106.689132
+    ],
+    [
+      10.821002,
+      106.689057
+    ],
+    [
+      10.821053,
+      106.68903
+    ],
+    [
+      10.821182,
+      106.688972
+    ],
+    [
+      10.821458,
+      106.688839
+    ],
+    [
+      10.821666,
+      106.68872
+    ],
+    [
+      10.821748,
+      106.688646
+    ],
+    [
+      10.821866,
+      106.68858
+    ],
+    [
+      10.822127,
+      106.688454
+    ],
+    [
+      10.822369,
+      106.688334
+    ],
+    [
+      10.822759,
+      106.688145
+    ],
+    [
+      10.822856,
+      106.688081
+    ],
+    [
+      10.823062,
+      106.687931
+    ],
+    [
+      10.823185,
+      106.687825
+    ],
+    [
+      10.823209,
+      106.687805
+    ],
+    [
+      10.823281,
+      106.687718
+    ],
+    [
+      10.823459,
+      106.687503
+    ],
+    [
+      10.823831,
+      106.686995
+    ],
+    [
+      10.824148,
+      106.686571
+    ],
+    [
+      10.82417,
+      106.686532
+    ],
+    [
+      10.824201,
+      106.686478
+    ],
+    [
+      10.82438,
+      106.68626
+    ],
+    [
+      10.824522,
+      106.686087
+    ],
+    [
+      10.824549,
+      106.686052
+    ],
+    [
+      10.824609,
+      106.685976
+    ],
+    [
+      10.824689,
+      106.685873
+    ],
+    [
+      10.824726,
+      106.685826
+    ],
+    [
+      10.824791,
+      106.685746
+    ],
+    [
+      10.824915,
+      106.685581
+    ],
+    [
+      10.825048,
+      106.685374
+    ],
+    [
+      10.825096,
+      106.685289
+    ],
+    [
+      10.825145,
+      106.685202
+    ],
+    [
+      10.825246,
+      106.685016
+    ],
+    [
+      10.825266,
+      106.68498
+    ],
+    [
+      10.825284,
+      106.684945
+    ],
+    [
+      10.825376,
+      106.684753
+    ],
+    [
+      10.825417,
+      106.684666
+    ],
+    [
+      10.825439,
+      106.684629
+    ],
+    [
+      10.82546,
+      106.684595
+    ],
+    [
+      10.825505,
+      106.68451
+    ],
+    [
+      10.825589,
+      106.684377
+    ],
+    [
+      10.825606,
+      106.684354
+    ],
+    [
+      10.825642,
+      106.684308
+    ],
+    [
+      10.825758,
+      106.684155
+    ],
+    [
+      10.825769,
+      106.68414
+    ],
+    [
+      10.825893,
+      106.683977
+    ],
+    [
+      10.825973,
+      106.68388
+    ],
+    [
+      10.826068,
+      106.683754
+    ],
+    [
+      10.82611,
+      106.683679
+    ],
+    [
+      10.826127,
+      106.683641
+    ],
+    [
+      10.82618,
+      106.683527
+    ],
+    [
+      10.826223,
+      106.683365
+    ],
+    [
+      10.82623,
+      106.683328
+    ],
+    [
+      10.826282,
+      106.682999
+    ],
+    [
+      10.826306,
+      106.682845
+    ],
+    [
+      10.826318,
+      106.682757
+    ],
+    [
+      10.82638,
+      106.682332
+    ],
+    [
+      10.826377,
+      106.682313
+    ],
+    [
+      10.826341,
+      106.682077
+    ],
+    [
+      10.826333,
+      106.682034
+    ],
+    [
+      10.826301,
+      106.681875
+    ],
+    [
+      10.826292,
+      106.681828
+    ],
+    [
+      10.826257,
+      106.68169
+    ],
+    [
+      10.826225,
+      106.681367
+    ],
+    [
+      10.826215,
+      106.681263
+    ],
+    [
+      10.82622,
+      106.681173
+    ],
+    [
+      10.826238,
+      106.680817
+    ],
+    [
+      10.826245,
+      106.680779
+    ],
+    [
+      10.826286,
+      106.680592
+    ],
+    [
+      10.826337,
+      106.680365
+    ],
+    [
+      10.826355,
+      106.680246
+    ],
+    [
+      10.826425,
+      106.680124
+    ],
+    [
+      10.826448,
+      106.680066
+    ],
+    [
+      10.826467,
+      106.680019
+    ],
+    [
+      10.826494,
+      106.679939
+    ],
+    [
+      10.826535,
+      106.679878
+    ],
+    [
+      10.82655,
+      106.679854
+    ],
+    [
+      10.82657,
+      106.679817
+    ],
+    [
+      10.826592,
+      106.67977
+    ],
+    [
+      10.826693,
+      106.679461
+    ],
+    [
+      10.826754,
+      106.679295
+    ],
+    [
+      10.826765,
+      106.679262
+    ],
+    [
+      10.826771,
+      106.679246
+    ],
+    [
+      10.826793,
+      106.679185
+    ],
+    [
+      10.826853,
+      106.678999
+    ],
+    [
+      10.827221,
+      106.677878
+    ],
+    [
+      10.827252,
+      106.677777
+    ],
+    [
+      10.827361,
+      106.677468
+    ],
+    [
+      10.827378,
+      106.67742
+    ],
+    [
+      10.827387,
+      106.677395
+    ],
+    [
+      10.827404,
+      106.67734
+    ],
+    [
+      10.827587,
+      106.676783
+    ],
+    [
+      10.827631,
+      106.676649
+    ],
+    [
+      10.82775,
+      106.6763
+    ],
+    [
+      10.827901,
+      106.67586
+    ],
+    [
+      10.828164,
+      106.675089
+    ],
+    [
+      10.828236,
+      106.674879
+    ],
+    [
+      10.828362,
+      106.674532
+    ],
+    [
+      10.828391,
+      106.674451
+    ],
+    [
+      10.828776,
+      106.673369
+    ],
+    [
+      10.828817,
+      106.67325
+    ],
+    [
+      10.828845,
+      106.673171
+    ],
+    [
+      10.828904,
+      106.673006
+    ],
+    [
+      10.829131,
+      106.672409
+    ],
+    [
+      10.829295,
+      106.672027
+    ],
+    [
+      10.829337,
+      106.671944
+    ],
+    [
+      10.82936,
+      106.671896
+    ],
+    [
+      10.829624,
+      106.671388
+    ],
+    [
+      10.829719,
+      106.671204
+    ],
+    [
+      10.829996,
+      106.67067
+    ],
+    [
+      10.830159,
+      106.670368
+    ],
+    [
+      10.830307,
+      106.670085
+    ],
+    [
+      10.830362,
+      106.670001
+    ],
+    [
+      10.830403,
+      106.669939
+    ],
+    [
+      10.83046,
+      106.669852
+    ],
+    [
+      10.830605,
+      106.669654
+    ],
+    [
+      10.83067,
+      106.669574
+    ],
+    [
+      10.830772,
+      106.669458
+    ],
+    [
+      10.831248,
+      106.668862
+    ],
+    [
+      10.831309,
+      106.668789
+    ],
+    [
+      10.831643,
+      106.668365
+    ],
+    [
+      10.831692,
+      106.668303
+    ],
+    [
+      10.832079,
+      106.667812
+    ],
+    [
+      10.832255,
+      106.667575
+    ],
+    [
+      10.832314,
+      106.667495
+    ],
+    [
+      10.832389,
+      106.667397
+    ],
+    [
+      10.83247,
+      106.667291
+    ],
+    [
+      10.832691,
+      106.66701
+    ],
+    [
+      10.832935,
+      106.666701
+    ],
+    [
+      10.833012,
+      106.666605
+    ],
+    [
+      10.833065,
+      106.666539
+    ],
+    [
+      10.833199,
+      106.666371
+    ],
+    [
+      10.833247,
+      106.666312
+    ],
+    [
+      10.833432,
+      106.666079
+    ],
+    [
+      10.833557,
+      106.665923
+    ],
+    [
+      10.833659,
+      106.665789
+    ],
+    [
+      10.833699,
+      106.665737
+    ],
+    [
+      10.833813,
+      106.665592
+    ],
+    [
+      10.834096,
+      106.665226
+    ],
+    [
+      10.834286,
+      106.66498
+    ],
+    [
+      10.834357,
+      106.664862
+    ],
+    [
+      10.834469,
+      106.664676
+    ],
+    [
+      10.834588,
+      106.664465
+    ],
+    [
+      10.834611,
+      106.664426
+    ],
+    [
+      10.834632,
+      106.66438
+    ],
+    [
+      10.834652,
+      106.664339
+    ],
+    [
+      10.834692,
+      106.664252
+    ],
+    [
+      10.835011,
+      106.663634
+    ],
+    [
+      10.835083,
+      106.663489
+    ],
+    [
+      10.835234,
+      106.663087
+    ],
+    [
+      10.835301,
+      106.662911
+    ],
+    [
+      10.835337,
+      106.662814
+    ],
+    [
+      10.835397,
+      106.662605
+    ],
+    [
+      10.835447,
+      106.662437
+    ],
+    [
+      10.835543,
+      106.662105
+    ],
+    [
+      10.835691,
+      106.66153
+    ],
+    [
+      10.835788,
+      106.661157
+    ],
+    [
+      10.83593,
+      106.660611
+    ],
+    [
+      10.835952,
+      106.660526
+    ],
+    [
+      10.836002,
+      106.660327
+    ],
+    [
+      10.83606,
+      106.66011
+    ],
+    [
+      10.836125,
+      106.659859
+    ],
+    [
+      10.83632,
+      106.659086
+    ],
+    [
+      10.836391,
+      106.658798
+    ],
+    [
+      10.836496,
+      106.658359
+    ],
+    [
+      10.836587,
+      106.658303
+    ],
+    [
+      10.837138,
+      106.658159
+    ],
+    [
+      10.837401,
+      106.658092
+    ],
+    [
+      10.837447,
+      106.65808
+    ],
+    [
+      10.83756,
+      106.658051
+    ],
+    [
+      10.837923,
+      106.657954
+    ],
+    [
+      10.838325,
+      106.657848
+    ],
+    [
+      10.838394,
+      106.65783
+    ],
+    [
+      10.838427,
+      106.657821
+    ],
+    [
+      10.838451,
+      106.657815
+    ],
+    [
+      10.838632,
+      106.657767
+    ],
+    [
+      10.838812,
+      106.657719
+    ],
+    [
+      10.839001,
+      106.657669
+    ],
+    [
+      10.839218,
+      106.657612
+    ],
+    [
+      10.83938,
+      106.657577
+    ],
+    [
+      10.840142,
+      106.657414
+    ],
+    [
+      10.840172,
+      106.657408
+    ],
+    [
+      10.840477,
+      106.65735
+    ],
+    [
+      10.84057,
+      106.657331
+    ],
+    [
+      10.840698,
+      106.657306
+    ],
+    [
+      10.84075,
+      106.657298
+    ],
+    [
+      10.840997,
+      106.657257
+    ],
+    [
+      10.841243,
+      106.657224
+    ],
+    [
+      10.841379,
+      106.657214
+    ],
+    [
+      10.841531,
+      106.6572
+    ],
+    [
+      10.841582,
+      106.657197
+    ],
+    [
+      10.841702,
+      106.657188
+    ],
+    [
+      10.84192,
+      106.657171
+    ],
+    [
+      10.842037,
+      106.657165
+    ],
+    [
+      10.842071,
+      106.657164
+    ],
+    [
+      10.842124,
+      106.657162
+    ],
+    [
+      10.842358,
+      106.657162
+    ],
+    [
+      10.842553,
+      106.657161
+    ],
+    [
+      10.842594,
+      106.657161
+    ],
+    [
+      10.842992,
+      106.657139
+    ],
+    [
+      10.843126,
+      106.657132
+    ],
+    [
+      10.843397,
+      106.657119
+    ],
+    [
+      10.843448,
+      106.657116
+    ],
+    [
+      10.843583,
+      106.657109
+    ],
+    [
+      10.843932,
+      106.657092
+    ],
+    [
+      10.844059,
+      106.657086
+    ],
+    [
+      10.844338,
+      106.657072
+    ],
+    [
+      10.844657,
+      106.657065
+    ],
+    [
+      10.844751,
+      106.657063
+    ],
+    [
+      10.845526,
+      106.657014
+    ],
+    [
+      10.846331,
+      106.656991
+    ],
+    [
+      10.84648,
+      106.656976
+    ],
+    [
+      10.84682,
+      106.656936
+    ],
+    [
+      10.847312,
+      106.656915
+    ],
+    [
+      10.847632,
+      106.656884
+    ],
+    [
+      10.847653,
+      106.656883
+    ],
+    [
+      10.847706,
+      106.656879
+    ],
+    [
+      10.847961,
+      106.656862
+    ],
+    [
+      10.848016,
+      106.656851
+    ],
+    [
+      10.848414,
+      106.656779
+    ],
+    [
+      10.848649,
+      106.656725
+    ],
+    [
+      10.848861,
+      106.656682
+    ],
+    [
+      10.849038,
+      106.656634
+    ],
+    [
+      10.849406,
+      106.656516
+    ],
+    [
+      10.849971,
+      106.656346
+    ],
+    [
+      10.85032,
+      106.656237
+    ],
+    [
+      10.85057,
+      106.656172
+    ],
+    [
+      10.850674,
+      106.656144
+    ],
+    [
+      10.850729,
+      106.656129
+    ],
+    [
+      10.850798,
+      106.656126
+    ],
+    [
+      10.85098,
+      106.656129
+    ],
+    [
+      10.85126,
+      106.656129
+    ],
+    [
+      10.851436,
+      106.656127
+    ],
+    [
+      10.851498,
+      106.656125
+    ],
+    [
+      10.851933,
+      106.656106
+    ],
+    [
+      10.852097,
+      106.656099
+    ],
+    [
+      10.852664,
+      106.656075
+    ],
+    [
+      10.852753,
+      106.656071
+    ],
+    [
+      10.853281,
+      106.656049
+    ],
+    [
+      10.853535,
+      106.656038
+    ],
+    [
+      10.853583,
+      106.656034
+    ],
+    [
+      10.854602,
+      106.655955
+    ],
+    [
+      10.854643,
+      106.655951
+    ],
+    [
+      10.854701,
+      106.656017
+    ],
+    [
+      10.854722,
+      106.656055
+    ],
+    [
+      10.854765,
+      106.656118
+    ],
+    [
+      10.854939,
+      106.655989
+    ],
+    [
+      10.855191,
+      106.655805
+    ],
+    [
+      10.855403,
+      106.655587
+    ],
+    [
+      10.855439,
+      106.655548
+    ],
+    [
+      10.855845,
+      106.655116
+    ],
+    [
+      10.856103,
+      106.654833
+    ],
+    [
+      10.85634,
+      106.654572
+    ],
+    [
+      10.856602,
+      106.654284
+    ],
+    [
+      10.856623,
+      106.654262
+    ],
+    [
+      10.857037,
+      106.65382
+    ],
+    [
+      10.857318,
+      106.653534
+    ],
+    [
+      10.857725,
+      106.653138
+    ],
+    [
+      10.857834,
+      106.653023
+    ],
+    [
+      10.858648,
+      106.652185
+    ],
+    [
+      10.858912,
+      106.651906
+    ],
+    [
+      10.859132,
+      106.651675
+    ],
+    [
+      10.859274,
+      106.651528
+    ],
+    [
+      10.859455,
+      106.651344
+    ],
+    [
+      10.859647,
+      106.651146
+    ],
+    [
+      10.859838,
+      106.650954
+    ],
+    [
+      10.860121,
+      106.650645
+    ],
+    [
+      10.860492,
+      106.650266
+    ],
+    [
+      10.860647,
+      106.650115
+    ],
+    [
+      10.860798,
+      106.650003
+    ],
+    [
+      10.860818,
+      106.649993
+    ],
+    [
+      10.860938,
+      106.649929
+    ],
+    [
+      10.861035,
+      106.649907
+    ],
+    [
+      10.861493,
+      106.649844
+    ],
+    [
+      10.861834,
+      106.649843
+    ],
+    [
+      10.861911,
+      106.649842
+    ],
+    [
+      10.862138,
+      106.64983
+    ],
+    [
+      10.862295,
+      106.649819
+    ],
+    [
+      10.862391,
+      106.649815
+    ],
+    [
+      10.862465,
+      106.64981
+    ],
+    [
+      10.862513,
+      106.649806
+    ],
+    [
+      10.863147,
+      106.649767
+    ],
+    [
+      10.863209,
+      106.649699
+    ],
+    [
+      10.863299,
+      106.649696
+    ],
+    [
+      10.864002,
+      106.649659
+    ],
+    [
+      10.864198,
+      106.649649
+    ],
+    [
+      10.86447,
+      106.649633
+    ],
+    [
+      10.865029,
+      106.649601
+    ],
+    [
+      10.865451,
+      106.648828
+    ],
+    [
+      10.865545,
+      106.648656
+    ],
+    [
+      10.865587,
+      106.648579
+    ],
+    [
+      10.865682,
+      106.648411
+    ],
+    [
+      10.865766,
+      106.648262
+    ],
+    [
+      10.865928,
+      106.647956
+    ],
+    [
+      10.866064,
+      106.647778
+    ],
+    [
+      10.866389,
+      106.647301
+    ],
+    [
+      10.866422,
+      106.647253
+    ],
+    [
+      10.866594,
+      106.646983
+    ],
+    [
+      10.866639,
+      106.646915
+    ],
+    [
+      10.866781,
+      106.646695
+    ],
+    [
+      10.866888,
+      106.646528
+    ],
+    [
+      10.866901,
+      106.646507
+    ],
+    [
+      10.867118,
+      106.646174
+    ],
+    [
+      10.867167,
+      106.646098
+    ]
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.772777,
+        "lon": 106.68887,
+        "date_time": "2023-11-02T23:20",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.774099,
+        "lon": 106.68886,
+        "date_time": "2023-11-02T23:21",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive northeast on Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Drive northeast. Then Make a sharp left onto Cách Mạng Tháng 8.",
+            "verbal_pre_transition_instruction": "Drive northeast on Nguyễn Thị Minh Khai. Then Make a sharp left onto Cách Mạng Tháng 8.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 19.092,
+            "length": 0.117,
+            "cost": 30.041,
+            "begin_shape_index": 0,
+            "end_shape_index": 4,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 14,
+            "instruction": "Make a sharp left onto Cách Mạng Tháng 8.",
+            "verbal_transition_alert_instruction": "Make a sharp left onto Cách Mạng Tháng 8.",
+            "verbal_succinct_transition_instruction": "Make a sharp left.",
+            "verbal_pre_transition_instruction": "Make a sharp left onto Cách Mạng Tháng 8.",
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "street_names": [
+              "Cách Mạng Tháng 8"
+            ],
+            "time": 15.302,
+            "length": 0.089,
+            "cost": 31.653,
+            "begin_shape_index": 4,
+            "end_shape_index": 8,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 8,
+            "end_shape_index": 8,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.772871,
+          "min_lon": 106.688768,
+          "max_lat": 10.773997,
+          "max_lon": 106.689517,
+          "time": 34.395,
+          "length": 0.207,
+          "cost": 61.694
+        },
+        "shape": "owopSaownjEm_@g^uDgDkAgDaE_D}DnFmApG{EvKqGxN"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.772871,
+      "min_lon": 106.688768,
+      "max_lat": 10.773997,
+      "max_lon": 106.689517,
+      "time": 34.395,
+      "length": 0.207,
+      "cost": 61.694
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.772872,
+      106.688769
+    ],
+    [
+      10.773391,
+      106.689269
+    ],
+    [
+      10.773482,
+      106.689353
+    ],
+    [
+      10.77352,
+      106.689437
+    ],
+    [
+      10.773617,
+      106.689517
+    ],
+    [
+      10.773712,
+      106.689397
+    ],
+    [
+      10.773751,
+      106.68926
+    ],
+    [
+      10.773861,
+      106.689056
+    ],
+    [
+      10.773998,
+      106.688803
+    ]
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.71428,
+        "lon": 106.625994,
+        "date_time": "2023-11-02T08:20",
+        "side_of_street": "left",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.710759,
+        "lon": 106.62814,
+        "date_time": "2023-11-02T08:22",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 3,
+            "instruction": "Drive southwest on Bến Mễ Cốc.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then, in 100 meters, Turn left onto Lưu Hữu Phước.",
+            "verbal_pre_transition_instruction": "Drive southwest on Bến Mễ Cốc. Then, in 100 meters, Turn left onto Lưu Hữu Phước.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Bến Mễ Cốc"
+            ],
+            "time": 17.984,
+            "length": 0.124,
+            "cost": 20.953,
+            "begin_shape_index": 0,
+            "end_shape_index": 5,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Lưu Hữu Phước.",
+            "verbal_transition_alert_instruction": "Turn left onto Lưu Hữu Phước.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Lưu Hữu Phước.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Lưu Hữu Phước"
+            ],
+            "time": 21.371,
+            "length": 0.133,
+            "cost": 27.856,
+            "begin_shape_index": 5,
+            "end_shape_index": 11,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left to stay on Lưu Hữu Phước.",
+            "verbal_transition_alert_instruction": "Turn left to stay on Lưu Hữu Phước.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right.",
+            "verbal_pre_transition_instruction": "Turn left to stay on Lưu Hữu Phước. Then Turn right.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "street_names": [
+              "Lưu Hữu Phước"
+            ],
+            "time": 2.731,
+            "length": 0.018,
+            "cost": 3.983,
+            "begin_shape_index": 11,
+            "end_shape_index": 12,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Take the Đò Rạch Cát Ferry.",
+            "verbal_pre_transition_instruction": "Turn right. Then Take the Đò Rạch Cát Ferry.",
+            "verbal_post_transition_instruction": "Continue for 10 meters.",
+            "time": 7.28,
+            "length": 0.014,
+            "cost": 29.701,
+            "begin_shape_index": 12,
+            "end_shape_index": 14,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 28,
+            "instruction": "Take the Đò Rạch Cát Ferry.",
+            "verbal_transition_alert_instruction": "Take the Đò Rạch Cát Ferry.",
+            "verbal_pre_transition_instruction": "Take the Đò Rạch Cát Ferry.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Đò Rạch Cát"
+            ],
+            "time": 40.68,
+            "length": 0.113,
+            "cost": 326.712,
+            "begin_shape_index": 14,
+            "end_shape_index": 20,
+            "ferry": true,
+            "has_time_restrictions": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 29,
+            "instruction": "Drive south on Hẻm 2990 Phạm Thế Hiển.",
+            "verbal_succinct_transition_instruction": "Drive south. Then Turn left onto Đường Phạm Thế Hiển.",
+            "verbal_pre_transition_instruction": "Drive south on Hẻm 2990 Phạm Thế Hiển. Then Turn left onto Đường Phạm Thế Hiển.",
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "street_names": [
+              "Hẻm 2990 Phạm Thế Hiển"
+            ],
+            "time": 12.184,
+            "length": 0.043,
+            "cost": 38.669,
+            "begin_shape_index": 20,
+            "end_shape_index": 23,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Đường Phạm Thế Hiển.",
+            "verbal_transition_alert_instruction": "Turn left onto Đường Phạm Thế Hiển.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Đường Phạm Thế Hiển.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Đường Phạm Thế Hiển"
+            ],
+            "time": 22.069,
+            "length": 0.134,
+            "cost": 28.822,
+            "begin_shape_index": 23,
+            "end_shape_index": 26,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đường Lê Bôi.",
+            "verbal_transition_alert_instruction": "Turn right onto Đường Lê Bôi.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Đường Lê Bôi.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Đường Lê Bôi"
+            ],
+            "time": 26.863,
+            "length": 0.146,
+            "cost": 33.742,
+            "begin_shape_index": 26,
+            "end_shape_index": 30,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 30,
+            "end_shape_index": 30,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": true,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": true,
+          "min_lat": 10.710968,
+          "min_lon": 106.625281,
+          "max_lat": 10.714389,
+          "max_lon": 106.628556,
+          "time": 151.166,
+          "length": 0.727,
+          "cost": 510.44
+        },
+        "shape": "ip}lSkm|jjEnXpKzElBhNnF~DtA`HbCH_@~@uCt@}BxKeb@^k@zEeX}CgHlBgAnBgAdIaAfKiAxN?zE?~GOnGy@zBM~Ha@`I}BuTqj@kIgSyAoC|CsAbg@oTfSgJhFyB"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": true,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": true,
+      "min_lat": 10.710968,
+      "min_lon": 106.625281,
+      "max_lat": 10.714389,
+      "max_lon": 106.628556,
+      "time": 151.166,
+      "length": 0.727,
+      "cost": 510.44
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.714389,
+      106.625766
+    ],
+    [
+      10.713981,
+      106.625565
+    ],
+    [
+      10.713871,
+      106.62551
+    ],
+    [
+      10.713626,
+      106.62539
+    ],
+    [
+      10.71353,
+      106.625347
+    ],
+    [
+      10.713385,
+      106.625281
+    ],
+    [
+      10.71338,
+      106.625297
+    ],
+    [
+      10.713348,
+      106.625372
+    ],
+    [
+      10.713321,
+      106.625435
+    ],
+    [
+      10.713116,
+      106.625998
+    ],
+    [
+      10.7131,
+      106.62602
+    ],
+    [
+      10.71299,
+      106.626423
+    ],
+    [
+      10.713069,
+      106.626571
+    ],
+    [
+      10.713014,
+      106.626607
+    ],
+    [
+      10.712958,
+      106.626643
+    ],
+    [
+      10.712795,
+      106.626676
+    ],
+    [
+      10.712599,
+      106.626713
+    ],
+    [
+      10.712346,
+      106.626713
+    ],
+    [
+      10.712236,
+      106.626713
+    ],
+    [
+      10.712092,
+      106.626721
+    ],
+    [
+      10.711956,
+      106.62675
+    ],
+    [
+      10.711894,
+      106.626757
+    ],
+    [
+      10.711734,
+      106.626774
+    ],
+    [
+      10.711573,
+      106.626837
+    ],
+    [
+      10.71192,
+      106.627534
+    ],
+    [
+      10.712086,
+      106.627858
+    ],
+    [
+      10.712131,
+      106.62793
+    ],
+    [
+      10.712052,
+      106.627972
+    ],
+    [
+      10.71141,
+      106.628316
+    ],
+    [
+      10.711086,
+      106.628496
+    ],
+    [
+      10.710969,
+      106.628557
+    ]
+  ]
+}

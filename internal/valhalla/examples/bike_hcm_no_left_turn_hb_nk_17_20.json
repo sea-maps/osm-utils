@@ -1,0 +1,283 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.75528,
+        "lon": 106.662949,
+        "date_time": "2023-11-02T17:20",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.758363,
+        "lon": 106.662912,
+        "date_time": "2023-11-02T17:23",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive east on Đường Hồng Bàng/Hong Bang Street. Continue on Hong Bang Street.",
+            "verbal_succinct_transition_instruction": "Drive east.",
+            "verbal_pre_transition_instruction": "Drive east on Đường Hồng Bàng, Hong Bang Street.",
+            "verbal_post_transition_instruction": "Continue on Hong Bang Street for 400 meters.",
+            "street_names": [
+              "Hong Bang Street"
+            ],
+            "begin_street_names": [
+              "Đường Hồng Bàng",
+              "Hong Bang Street"
+            ],
+            "time": 58.675,
+            "length": 0.379,
+            "cost": 61.781,
+            "begin_shape_index": 0,
+            "end_shape_index": 15,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 13,
+            "instruction": "Make a left U-turn onto Hồng Bàng.",
+            "verbal_transition_alert_instruction": "Make a left U-turn onto Hồng Bàng.",
+            "verbal_succinct_transition_instruction": "Make a left U-turn.",
+            "verbal_pre_transition_instruction": "Make a left U-turn onto Hồng Bàng.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "street_names": [
+              "Hồng Bàng"
+            ],
+            "time": 59.002,
+            "length": 0.351,
+            "cost": 74.57,
+            "begin_shape_index": 15,
+            "end_shape_index": 27,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đường Nguyễn Kim.",
+            "verbal_transition_alert_instruction": "Turn right onto Đường Nguyễn Kim.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Đường Nguyễn Kim.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Đường Nguyễn Kim"
+            ],
+            "time": 49.604,
+            "length": 0.308,
+            "cost": 63.235,
+            "begin_shape_index": 27,
+            "end_shape_index": 37,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 37,
+            "end_shape_index": 37,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.755324,
+          "min_lon": 106.662824,
+          "max_lat": 10.758346,
+          "max_lon": 106.666373,
+          "time": 167.282,
+          "length": 1.039,
+          "cost": 199.587
+        },
+        "shape": "wnmoSy`emjEm@mF}BsTK{@WuBoBkP_DuWQwAiCmTUoBu@eGoDcZgAcJaEs\\gDgVaA{GyB}@{Et@iAtBfAvGxI|r@RvAlBrOhIhq@T`C~ClWpBdQXdCqLjBoNbBaFl@mGv@gWzCmGr@mJlAsUpCaf@|FsR~B"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.755324,
+      "min_lon": 106.662824,
+      "max_lat": 10.758346,
+      "max_lon": 106.666373,
+      "time": 167.282,
+      "length": 1.039,
+      "cost": 199.587
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.755324,
+      106.662941
+    ],
+    [
+      10.755347,
+      106.66306
+    ],
+    [
+      10.75541,
+      106.663406
+    ],
+    [
+      10.755416,
+      106.663436
+    ],
+    [
+      10.755428,
+      106.663495
+    ],
+    [
+      10.755484,
+      106.663773
+    ],
+    [
+      10.755564,
+      106.664168
+    ],
+    [
+      10.755573,
+      106.664212
+    ],
+    [
+      10.755642,
+      106.664555
+    ],
+    [
+      10.755653,
+      106.664611
+    ],
+    [
+      10.75568,
+      106.664742
+    ],
+    [
+      10.755768,
+      106.665176
+    ],
+    [
+      10.755804,
+      106.665354
+    ],
+    [
+      10.755901,
+      106.665828
+    ],
+    [
+      10.755985,
+      106.6662
+    ],
+    [
+      10.756018,
+      106.666342
+    ],
+    [
+      10.756079,
+      106.666373
+    ],
+    [
+      10.756189,
+      106.666346
+    ],
+    [
+      10.756226,
+      106.666287
+    ],
+    [
+      10.75619,
+      106.666147
+    ],
+    [
+      10.756017,
+      106.665316
+    ],
+    [
+      10.756007,
+      106.665272
+    ],
+    [
+      10.755952,
+      106.665006
+    ],
+    [
+      10.755787,
+      106.664201
+    ],
+    [
+      10.755776,
+      106.664136
+    ],
+    [
+      10.755696,
+      106.663745
+    ],
+    [
+      10.755639,
+      106.663454
+    ],
+    [
+      10.755626,
+      106.663387
+    ],
+    [
+      10.755843,
+      106.663333
+    ],
+    [
+      10.756091,
+      106.663283
+    ],
+    [
+      10.756204,
+      106.66326
+    ],
+    [
+      10.756339,
+      106.663232
+    ],
+    [
+      10.756727,
+      106.663154
+    ],
+    [
+      10.756862,
+      106.663128
+    ],
+    [
+      10.757045,
+      106.663089
+    ],
+    [
+      10.757407,
+      106.663016
+    ],
+    [
+      10.758032,
+      106.662889
+    ],
+    [
+      10.758346,
+      106.662825
+    ]
+  ]
+}

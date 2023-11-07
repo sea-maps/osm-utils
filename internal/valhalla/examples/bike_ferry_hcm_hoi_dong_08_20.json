@@ -1,0 +1,236 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.719478,
+        "lon": 106.630897,
+        "date_time": "2023-11-02T08:20",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.71778,
+        "lon": 106.634502,
+        "date_time": "2023-11-02T08:22",
+        "side_of_street": "left",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive southwest.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then Turn left.",
+            "verbal_pre_transition_instruction": "Drive southwest. Then Turn left.",
+            "verbal_post_transition_instruction": "Continue for 10 meters.",
+            "time": 1.72,
+            "length": 0.009,
+            "cost": 1.865,
+            "begin_shape_index": 0,
+            "end_shape_index": 1,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "time": 26.507,
+            "length": 0.131,
+            "cost": 48.775,
+            "begin_shape_index": 1,
+            "end_shape_index": 4,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 28,
+            "instruction": "Take the Đò Hội Đồng Ferry.",
+            "verbal_transition_alert_instruction": "Take the Đò Hội Đồng Ferry.",
+            "verbal_pre_transition_instruction": "Take the Đò Hội Đồng Ferry.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Đò Hội Đồng"
+            ],
+            "time": 37.439,
+            "length": 0.104,
+            "cost": 325.114,
+            "begin_shape_index": 4,
+            "end_shape_index": 5,
+            "ferry": true,
+            "has_time_restrictions": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 29,
+            "instruction": "Drive southeast.",
+            "verbal_succinct_transition_instruction": "Drive southeast. Then Turn right onto Đường Phạm Thế Hiển.",
+            "verbal_pre_transition_instruction": "Drive southeast. Then Turn right onto Đường Phạm Thế Hiển.",
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "time": 7.379,
+            "length": 0.041,
+            "cost": 28.929,
+            "begin_shape_index": 5,
+            "end_shape_index": 7,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đường Phạm Thế Hiển.",
+            "verbal_transition_alert_instruction": "Turn right onto Đường Phạm Thế Hiển.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Hẻm 2941 Phạm Thế Hiển.",
+            "verbal_pre_transition_instruction": "Turn right onto Đường Phạm Thế Hiển. Then Turn left onto Hẻm 2941 Phạm Thế Hiển.",
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "street_names": [
+              "Đường Phạm Thế Hiển"
+            ],
+            "time": 6.546,
+            "length": 0.008,
+            "cost": 17.098,
+            "begin_shape_index": 7,
+            "end_shape_index": 8,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Hẻm 2941 Phạm Thế Hiển.",
+            "verbal_transition_alert_instruction": "Turn left onto Hẻm 2941 Phạm Thế Hiển.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Hẻm 2941 Phạm Thế Hiển.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Hẻm 2941 Phạm Thế Hiển"
+            ],
+            "time": 35.285,
+            "length": 0.164,
+            "cost": 54.815,
+            "begin_shape_index": 8,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 6,
+            "instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left.",
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 14,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": true,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": true,
+          "min_lat": 10.71758,
+          "min_lon": 106.630921,
+          "max_lat": 10.719446,
+          "max_lon": 106.634425,
+          "time": 114.88,
+          "length": 0.457,
+          "cost": 476.599
+        },
+        "shape": "mlgmSarfkjExCnAxViu@fGqBlCeCb_@ip@rBmFlEiLfC~@r@uBpAaEfDwOvHu_@pAmIbFiR"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": true,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": true,
+      "min_lat": 10.71758,
+      "min_lon": 106.630921,
+      "max_lat": 10.719446,
+      "max_lon": 106.634425,
+      "time": 114.88,
+      "length": 0.457,
+      "cost": 476.599
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.719447,
+      106.630961
+    ],
+    [
+      10.71937,
+      106.630921
+    ],
+    [
+      10.718989,
+      106.63179
+    ],
+    [
+      10.718857,
+      106.631847
+    ],
+    [
+      10.718786,
+      106.631914
+    ],
+    [
+      10.718272,
+      106.632703
+    ],
+    [
+      10.718214,
+      106.632822
+    ],
+    [
+      10.718111,
+      106.633035
+    ],
+    [
+      10.718043,
+      106.633003
+    ],
+    [
+      10.718017,
+      106.633062
+    ],
+    [
+      10.717976,
+      106.633159
+    ],
+    [
+      10.717892,
+      106.633427
+    ],
+    [
+      10.717736,
+      106.63395
+    ],
+    [
+      10.717695,
+      106.634117
+    ],
+    [
+      10.717581,
+      106.634426
+    ]
+  ]
+}

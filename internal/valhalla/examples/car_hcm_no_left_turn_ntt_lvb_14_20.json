@@ -1,0 +1,191 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.738362,
+        "lon": 106.714056,
+        "date_time": "2023-11-02T14:20",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.739849,
+        "lon": 106.716073,
+        "date_time": "2023-11-02T14:21",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive east on Nguyễn Thị Thập.",
+            "verbal_succinct_transition_instruction": "Drive east. Then Turn left onto Lâm Văn Bền.",
+            "verbal_pre_transition_instruction": "Drive east on Nguyễn Thị Thập. Then Turn left onto Lâm Văn Bền.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Nguyễn Thị Thập"
+            ],
+            "time": 31.288,
+            "length": 0.202,
+            "cost": 50.439,
+            "begin_shape_index": 0,
+            "end_shape_index": 7,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Lâm Văn Bền/Lam Van Ben.",
+            "verbal_transition_alert_instruction": "Turn left onto Lâm Văn Bền.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Lâm Văn Bền, Lam Van Ben.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Lâm Văn Bền",
+              "Lam Van Ben"
+            ],
+            "time": 28.478,
+            "length": 0.18,
+            "cost": 53.802,
+            "begin_shape_index": 7,
+            "end_shape_index": 13,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Hẻm 222 Lâm Văn Bền.",
+            "verbal_transition_alert_instruction": "Turn right onto Hẻm 222 Lâm Văn Bền.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Turn right onto Hẻm 222 Lâm Văn Bền. Then Your destination will be on the right.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "street_names": [
+              "Hẻm 222 Lâm Văn Bền"
+            ],
+            "time": 7.296,
+            "length": 0.015,
+            "cost": 23.943,
+            "begin_shape_index": 13,
+            "end_shape_index": 14,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 14,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.738337,
+          "min_lon": 106.71406,
+          "max_lat": 10.739975,
+          "max_lon": 106.716056,
+          "time": 67.062,
+          "length": 0.398,
+          "cost": 128.184
+        },
+        "shape": "golnSy{hpjEd@kUHeEPqIhAyj@j@eZBmAFoB}FEm@DyUGeUEwa@HaKHe@{G"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.738337,
+      "min_lon": 106.71406,
+      "max_lat": 10.739975,
+      "max_lon": 106.716056,
+      "time": 67.062,
+      "length": 0.398,
+      "cost": 128.184
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.738436,
+      106.714061
+    ],
+    [
+      10.738417,
+      106.714419
+    ],
+    [
+      10.738412,
+      106.714518
+    ],
+    [
+      10.738403,
+      106.714687
+    ],
+    [
+      10.738366,
+      106.715388
+    ],
+    [
+      10.738344,
+      106.715823
+    ],
+    [
+      10.738342,
+      106.715862
+    ],
+    [
+      10.738338,
+      106.715918
+    ],
+    [
+      10.738465,
+      106.715921
+    ],
+    [
+      10.738488,
+      106.715918
+    ],
+    [
+      10.738853,
+      106.715922
+    ],
+    [
+      10.739208,
+      106.715925
+    ],
+    [
+      10.739764,
+      106.71592
+    ],
+    [
+      10.739957,
+      106.715915
+    ],
+    [
+      10.739976,
+      106.716057
+    ]
+  ]
+}

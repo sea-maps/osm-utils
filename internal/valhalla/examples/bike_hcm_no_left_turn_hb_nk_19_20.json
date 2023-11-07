@@ -1,0 +1,175 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.75528,
+        "lon": 106.662949,
+        "date_time": "2023-11-02T20:20",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.758363,
+        "lon": 106.662912,
+        "date_time": "2023-11-02T20:21",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive east on Đường Hồng Bàng/Hong Bang Street.",
+            "verbal_succinct_transition_instruction": "Drive east. Then Turn left onto Đường Nguyễn Kim.",
+            "verbal_pre_transition_instruction": "Drive east on Đường Hồng Bàng, Hong Bang Street. Then Turn left onto Đường Nguyễn Kim.",
+            "verbal_post_transition_instruction": "Continue for 50 meters.",
+            "street_names": [
+              "Đường Hồng Bàng",
+              "Hong Bang Street"
+            ],
+            "time": 7.809,
+            "length": 0.054,
+            "cost": 8.715,
+            "begin_shape_index": 0,
+            "end_shape_index": 3,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Đường Nguyễn Kim.",
+            "verbal_transition_alert_instruction": "Turn left onto Đường Nguyễn Kim.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Đường Nguyễn Kim.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Đường Nguyễn Kim"
+            ],
+            "time": 50.358,
+            "length": 0.332,
+            "cost": 75.356,
+            "begin_shape_index": 3,
+            "end_shape_index": 15,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 15,
+            "end_shape_index": 15,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.755324,
+          "min_lon": 106.662824,
+          "max_lat": 10.758346,
+          "max_lon": 106.663435,
+          "time": 58.167,
+          "length": 0.386,
+          "cost": 84.071
+        },
+        "shape": "wnmoSy`emjEm@mF}BsTK{@iEl@yEr@qLjBoNbBaFl@mGv@gWzCmGr@mJlAsUpCaf@|FsR~B"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.755324,
+      "min_lon": 106.662824,
+      "max_lat": 10.758346,
+      "max_lon": 106.663435,
+      "time": 58.167,
+      "length": 0.386,
+      "cost": 84.071
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.755324,
+      106.662941
+    ],
+    [
+      10.755347,
+      106.66306
+    ],
+    [
+      10.75541,
+      106.663406
+    ],
+    [
+      10.755416,
+      106.663436
+    ],
+    [
+      10.755517,
+      106.663413
+    ],
+    [
+      10.755626,
+      106.663387
+    ],
+    [
+      10.755843,
+      106.663333
+    ],
+    [
+      10.756091,
+      106.663283
+    ],
+    [
+      10.756204,
+      106.66326
+    ],
+    [
+      10.756339,
+      106.663232
+    ],
+    [
+      10.756727,
+      106.663154
+    ],
+    [
+      10.756862,
+      106.663128
+    ],
+    [
+      10.757045,
+      106.663089
+    ],
+    [
+      10.757407,
+      106.663016
+    ],
+    [
+      10.758032,
+      106.662889
+    ],
+    [
+      10.758346,
+      106.662825
+    ]
+  ]
+}

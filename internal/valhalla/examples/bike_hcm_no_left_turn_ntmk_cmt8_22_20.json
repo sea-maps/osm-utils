@@ -1,0 +1,248 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.772777,
+        "lon": 106.68887,
+        "date_time": "2023-11-02T22:20",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.774099,
+        "lon": 106.68886,
+        "date_time": "2023-11-02T22:21",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive northeast on Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Drive northeast. Then Bear left to stay on Nguyễn Thị Minh Khai.",
+            "verbal_pre_transition_instruction": "Drive northeast on Nguyễn Thị Minh Khai. Then Bear left to stay on Nguyễn Thị Minh Khai.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 19.092,
+            "length": 0.117,
+            "cost": 30.041,
+            "begin_shape_index": 0,
+            "end_shape_index": 4,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left to stay on Nguyễn Thị Minh Khai.",
+            "verbal_transition_alert_instruction": "Bear left to stay on Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_pre_transition_instruction": "Bear left to stay on Nguyễn Thị Minh Khai.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 25.566,
+            "length": 0.177,
+            "cost": 44.01,
+            "begin_shape_index": 4,
+            "end_shape_index": 8,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 19,
+            "instruction": "Turn left to take the ramp.",
+            "verbal_transition_alert_instruction": "Turn left to take the ramp.",
+            "verbal_pre_transition_instruction": "Turn left to take the ramp. Then Turn left to take the ramp.",
+            "time": 1.619,
+            "length": 0.009,
+            "cost": 5.859,
+            "begin_shape_index": 8,
+            "end_shape_index": 9,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 19,
+            "instruction": "Turn left to take the ramp.",
+            "verbal_transition_alert_instruction": "Turn left to take the ramp.",
+            "verbal_pre_transition_instruction": "Turn left to take the ramp. Then Turn left onto Nguyễn Thị Minh Khai.",
+            "time": 1.737,
+            "length": 0.007,
+            "cost": 7.743,
+            "begin_shape_index": 9,
+            "end_shape_index": 10,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Nguyễn Thị Minh Khai.",
+            "verbal_transition_alert_instruction": "Turn left onto Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Nguyễn Thị Minh Khai.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 28.07,
+            "length": 0.178,
+            "cost": 57.711,
+            "begin_shape_index": 10,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto Cách Mạng Tháng 8.",
+            "verbal_transition_alert_instruction": "Bear right onto Cách Mạng Tháng 8.",
+            "verbal_succinct_transition_instruction": "Bear right. Then Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Bear right onto Cách Mạng Tháng 8. Then Your destination will be on the right.",
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "street_names": [
+              "Cách Mạng Tháng 8"
+            ],
+            "time": 10.974,
+            "length": 0.072,
+            "cost": 22.454,
+            "begin_shape_index": 14,
+            "end_shape_index": 17,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 17,
+            "end_shape_index": 17,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.772871,
+          "min_lon": 106.688768,
+          "max_lat": 10.774868,
+          "max_lon": 106.690615,
+          "time": 87.062,
+          "length": 0.561,
+          "cost": 167.82
+        },
+        "shape": "owopSaownjEm_@g^uDgDkAgDaE_DaD_ByL{KgIuH}j@cj@yCz@KfCbDvAjc@va@vZfY`BhEmApG{EvKqGxN"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.772871,
+      "min_lon": 106.688768,
+      "max_lat": 10.774868,
+      "max_lon": 106.690615,
+      "time": 87.062,
+      "length": 0.561,
+      "cost": 167.82
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.772872,
+      106.688769
+    ],
+    [
+      10.773391,
+      106.689269
+    ],
+    [
+      10.773482,
+      106.689353
+    ],
+    [
+      10.77352,
+      106.689437
+    ],
+    [
+      10.773617,
+      106.689517
+    ],
+    [
+      10.773698,
+      106.689565
+    ],
+    [
+      10.773919,
+      106.689771
+    ],
+    [
+      10.774083,
+      106.689926
+    ],
+    [
+      10.774786,
+      106.690616
+    ],
+    [
+      10.774863,
+      106.690586
+    ],
+    [
+      10.774869,
+      106.690518
+    ],
+    [
+      10.774787,
+      106.690474
+    ],
+    [
+      10.774205,
+      106.689918
+    ],
+    [
+      10.773761,
+      106.689498
+    ],
+    [
+      10.773712,
+      106.689397
+    ],
+    [
+      10.773751,
+      106.68926
+    ],
+    [
+      10.773861,
+      106.689056
+    ],
+    [
+      10.773998,
+      106.688803
+    ]
+  ]
+}

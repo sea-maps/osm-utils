@@ -1,0 +1,207 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.788148,
+        "lon": 106.703327,
+        "date_time": "2023-11-02T11:55",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.785524,
+        "lon": 106.702769,
+        "date_time": "2023-11-02T11:57",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive northeast on Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Drive northeast. Then Turn right onto Nguyễn Bỉnh Khiêm.",
+            "verbal_pre_transition_instruction": "Drive northeast on Nguyễn Thị Minh Khai. Then Turn right onto Nguyễn Bỉnh Khiêm.",
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 7.917,
+            "length": 0.054,
+            "cost": 12.002,
+            "begin_shape_index": 0,
+            "end_shape_index": 2,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Nguyễn Bỉnh Khiêm.",
+            "verbal_transition_alert_instruction": "Turn right onto Nguyễn Bỉnh Khiêm.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Nguyễn Bỉnh Khiêm.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Nguyễn Bỉnh Khiêm"
+            ],
+            "time": 38.445,
+            "length": 0.214,
+            "cost": 59.024,
+            "begin_shape_index": 2,
+            "end_shape_index": 4,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Lê Duẩn.",
+            "verbal_transition_alert_instruction": "Turn right onto Lê Duẩn.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Lê Duẩn.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Lê Duẩn"
+            ],
+            "time": 51.389,
+            "length": 0.306,
+            "cost": 73.703,
+            "begin_shape_index": 4,
+            "end_shape_index": 11,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Đinh Tiên Hoàng.",
+            "verbal_transition_alert_instruction": "Turn right onto Đinh Tiên Hoàng.",
+            "verbal_succinct_transition_instruction": "Turn right. Then, in 40 meters, You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "Turn right onto Đinh Tiên Hoàng. Then, in 40 meters, You will arrive at your destination.",
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "street_names": [
+              "Đinh Tiên Hoàng"
+            ],
+            "time": 7.694,
+            "length": 0.042,
+            "cost": 25.971,
+            "begin_shape_index": 11,
+            "end_shape_index": 14,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 14,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.785286,
+          "min_lon": 106.70278,
+          "max_lat": 10.788621,
+          "max_lon": 106.704973,
+          "time": 105.448,
+          "length": 0.616,
+          "cost": 170.701
+        },
+        "shape": "}xmqSmusojE{H}G_LyJrb@ce@jm@or@rDfDrZpXh`@`^d\\xYzTjRdDnDrBhCwAjG}FlGeAhA"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.785286,
+      "min_lon": 106.70278,
+      "max_lat": 10.788621,
+      "max_lon": 106.704973,
+      "time": 105.448,
+      "length": 0.616,
+      "cost": 170.701
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.788255,
+      106.703207
+    ],
+    [
+      10.788413,
+      106.70335
+    ],
+    [
+      10.788621,
+      106.703539
+    ],
+    [
+      10.788051,
+      106.704149
+    ],
+    [
+      10.787309,
+      106.704973
+    ],
+    [
+      10.787219,
+      106.704889
+    ],
+    [
+      10.786777,
+      106.70448
+    ],
+    [
+      10.786244,
+      106.703983
+    ],
+    [
+      10.785777,
+      106.703554
+    ],
+    [
+      10.785427,
+      106.703244
+    ],
+    [
+      10.785344,
+      106.703156
+    ],
+    [
+      10.785286,
+      106.703087
+    ],
+    [
+      10.78533,
+      106.702953
+    ],
+    [
+      10.785457,
+      106.702818
+    ],
+    [
+      10.785492,
+      106.702781
+    ]
+  ]
+}

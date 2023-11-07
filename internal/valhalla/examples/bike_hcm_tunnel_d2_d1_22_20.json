@@ -1,0 +1,432 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.774985,
+        "lon": 106.722114,
+        "date_time": "2023-11-02T22:20",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.764466,
+        "lon": 106.698145,
+        "date_time": "2023-11-02T22:28",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive south on Nguyễn Cơ Thạch.",
+            "verbal_succinct_transition_instruction": "Drive south. Then Turn right onto Mai Chí Thọ.",
+            "verbal_pre_transition_instruction": "Drive south on Nguyễn Cơ Thạch. Then Turn right onto Mai Chí Thọ.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Nguyễn Cơ Thạch"
+            ],
+            "time": 23.543,
+            "length": 0.163,
+            "cost": 24.108,
+            "begin_shape_index": 0,
+            "end_shape_index": 8,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Mai Chí Thọ/Mai Chi Tho Boulevard.",
+            "verbal_transition_alert_instruction": "Turn right onto Mai Chí Thọ.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto Mai Chí Thọ, Mai Chi Tho Boulevard.",
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "street_names": [
+              "Mai Chí Thọ",
+              "Mai Chi Tho Boulevard"
+            ],
+            "time": 343.584,
+            "length": 2.361,
+            "cost": 391.81,
+            "begin_shape_index": 8,
+            "end_shape_index": 42,
+            "has_time_restrictions": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 20,
+            "instruction": "Take the exit on the right.",
+            "verbal_transition_alert_instruction": "Take the exit on the right.",
+            "verbal_pre_transition_instruction": "Take the exit on the right.",
+            "time": 15.322,
+            "length": 0.085,
+            "cost": 17.135,
+            "begin_shape_index": 42,
+            "end_shape_index": 46,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 24,
+            "instruction": "Keep left to take Võ Văn Kiệt/Vo Van Kiet Highway.",
+            "verbal_transition_alert_instruction": "Keep left to take Võ Văn Kiệt.",
+            "verbal_pre_transition_instruction": "Keep left to take Võ Văn Kiệt, Vo Van Kiet Highway.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "street_names": [
+              "Võ Văn Kiệt",
+              "Vo Van Kiet Highway"
+            ],
+            "time": 76.134,
+            "length": 0.49,
+            "cost": 98.996,
+            "begin_shape_index": 46,
+            "end_shape_index": 71,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 71,
+            "end_shape_index": 71,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": true,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.764294,
+          "min_lon": 106.698266,
+          "max_lat": 10.774974,
+          "max_lon": 106.722561,
+          "time": 458.584,
+          "length": 3.1,
+          "cost": 532.05
+        },
+        "shape": "}zspSk}xpjEv@BlF@lDBnIIzKu@xNkBlOuCrQ}FnDzI~JjWvUtn@~\\|mAf\\n|ApXnzAXfBlAzIr@xEnBtM~BdFlGbi@^~DnBvSt@pDpC~DbDnEjA|EpThwBl]jkDd{@|sI`B`MbCpNpDjOlEjOrEfMnE~KtFjLnF|JvChD`DvDbIxM~HzK|IbKzEpG|C|CpDtChQfLvg@`]zGlCpIdDjJtFlG`G~AxAtDjGlB|CrB~DdBnD~DdIxTja@f@jAz@dB|BlCjAlB~AxBnAfAzBpAjDxHrDlIxHnNb@v@vGvL`A`B"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": true,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.764294,
+      "min_lon": 106.698266,
+      "max_lat": 10.774974,
+      "max_lon": 106.722561,
+      "time": 458.584,
+      "length": 3.1,
+      "cost": 532.05
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.774975,
+      106.722278
+    ],
+    [
+      10.774947,
+      106.722276
+    ],
+    [
+      10.774828,
+      106.722275
+    ],
+    [
+      10.774741,
+      106.722273
+    ],
+    [
+      10.774573,
+      106.722278
+    ],
+    [
+      10.774367,
+      106.722305
+    ],
+    [
+      10.774114,
+      106.722359
+    ],
+    [
+      10.773851,
+      106.722434
+    ],
+    [
+      10.773553,
+      106.722561
+    ],
+    [
+      10.773465,
+      106.722387
+    ],
+    [
+      10.773273,
+      106.721997
+    ],
+    [
+      10.772909,
+      106.721234
+    ],
+    [
+      10.772429,
+      106.719971
+    ],
+    [
+      10.771961,
+      106.718475
+    ],
+    [
+      10.771552,
+      106.717011
+    ],
+    [
+      10.771539,
+      106.716959
+    ],
+    [
+      10.7715,
+      106.716785
+    ],
+    [
+      10.771474,
+      106.716676
+    ],
+    [
+      10.771418,
+      106.716441
+    ],
+    [
+      10.771354,
+      106.716326
+    ],
+    [
+      10.771219,
+      106.715652
+    ],
+    [
+      10.771203,
+      106.715556
+    ],
+    [
+      10.771147,
+      106.715224
+    ],
+    [
+      10.77112,
+      106.715135
+    ],
+    [
+      10.771047,
+      106.715039
+    ],
+    [
+      10.770965,
+      106.714935
+    ],
+    [
+      10.770927,
+      106.714824
+    ],
+    [
+      10.770582,
+      106.712899
+    ],
+    [
+      10.770095,
+      106.710141
+    ],
+    [
+      10.769132,
+      106.704686
+    ],
+    [
+      10.769083,
+      106.704461
+    ],
+    [
+      10.769017,
+      106.704212
+    ],
+    [
+      10.768928,
+      106.70395
+    ],
+    [
+      10.768825,
+      106.703688
+    ],
+    [
+      10.768719,
+      106.70346
+    ],
+    [
+      10.768615,
+      106.703252
+    ],
+    [
+      10.768492,
+      106.703038
+    ],
+    [
+      10.768372,
+      106.702847
+    ],
+    [
+      10.768296,
+      106.702762
+    ],
+    [
+      10.768215,
+      106.70267
+    ],
+    [
+      10.768053,
+      106.702433
+    ],
+    [
+      10.767893,
+      106.702227
+    ],
+    [
+      10.767718,
+      106.702033
+    ],
+    [
+      10.767608,
+      106.701896
+    ],
+    [
+      10.767529,
+      106.701817
+    ],
+    [
+      10.76744,
+      106.701742
+    ],
+    [
+      10.767147,
+      106.70153
+    ],
+    [
+      10.766495,
+      106.701049
+    ],
+    [
+      10.766353,
+      106.700978
+    ],
+    [
+      10.766184,
+      106.700895
+    ],
+    [
+      10.766002,
+      106.700772
+    ],
+    [
+      10.765867,
+      106.700643
+    ],
+    [
+      10.765819,
+      106.700598
+    ],
+    [
+      10.765728,
+      106.700464
+    ],
+    [
+      10.765673,
+      106.700385
+    ],
+    [
+      10.765615,
+      106.700289
+    ],
+    [
+      10.765564,
+      106.700201
+    ],
+    [
+      10.765468,
+      106.700038
+    ],
+    [
+      10.765119,
+      106.699488
+    ],
+    [
+      10.765099,
+      106.69945
+    ],
+    [
+      10.765069,
+      106.699399
+    ],
+    [
+      10.765006,
+      106.699328
+    ],
+    [
+      10.764968,
+      106.699273
+    ],
+    [
+      10.76492,
+      106.699212
+    ],
+    [
+      10.76488,
+      106.699176
+    ],
+    [
+      10.764818,
+      106.699135
+    ],
+    [
+      10.764732,
+      106.698978
+    ],
+    [
+      10.764642,
+      106.698811
+    ],
+    [
+      10.764485,
+      106.698563
+    ],
+    [
+      10.764467,
+      106.698535
+    ],
+    [
+      10.764327,
+      106.698315
+    ],
+    [
+      10.764294,
+      106.698266
+    ]
+  ]
+}

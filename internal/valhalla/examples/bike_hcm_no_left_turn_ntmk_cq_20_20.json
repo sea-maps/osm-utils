@@ -1,0 +1,247 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 10.769235,
+        "lon": 106.68519,
+        "date_time": "2023-11-02T20:20",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 10.767522,
+        "lon": 106.685732,
+        "date_time": "2023-11-02T20:21",
+        "side_of_street": "left",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive southwest on Nguyễn Thị Minh Khai.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then Turn right onto Cao Thắng.",
+            "verbal_pre_transition_instruction": "Drive southwest on Nguyễn Thị Minh Khai. Then Turn right onto Cao Thắng.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Nguyễn Thị Minh Khai"
+            ],
+            "time": 23.162,
+            "length": 0.146,
+            "cost": 23.981,
+            "begin_shape_index": 0,
+            "end_shape_index": 4,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Cao Thắng.",
+            "verbal_transition_alert_instruction": "Turn right onto Cao Thắng.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Make a sharp left to stay on Cao Thắng.",
+            "verbal_pre_transition_instruction": "Turn right onto Cao Thắng. Then Make a sharp left to stay on Cao Thắng.",
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "street_names": [
+              "Cao Thắng"
+            ],
+            "time": 10.528,
+            "length": 0.04,
+            "cost": 18.112,
+            "begin_shape_index": 4,
+            "end_shape_index": 6,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 14,
+            "instruction": "Make a sharp left to stay on Cao Thắng.",
+            "verbal_transition_alert_instruction": "Make a sharp left to stay on Cao Thắng.",
+            "verbal_succinct_transition_instruction": "Make a sharp left. Then, in 60 meters, Bear left onto Cống Quỳnh.",
+            "verbal_pre_transition_instruction": "Make a sharp left to stay on Cao Thắng. Then, in 60 meters, Bear left onto Cống Quỳnh.",
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "street_names": [
+              "Cao Thắng"
+            ],
+            "time": 17.062,
+            "length": 0.056,
+            "cost": 18.456,
+            "begin_shape_index": 6,
+            "end_shape_index": 9,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left onto Cống Quỳnh.",
+            "verbal_transition_alert_instruction": "Bear left onto Cống Quỳnh.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_pre_transition_instruction": "Bear left onto Cống Quỳnh.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "Cống Quỳnh"
+            ],
+            "time": 32.242,
+            "length": 0.165,
+            "cost": 47.336,
+            "begin_shape_index": 9,
+            "end_shape_index": 17,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Hẻm 191 Cống Quỳnh.",
+            "verbal_transition_alert_instruction": "Turn right onto Hẻm 191 Cống Quỳnh.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Your destination will be on the left.",
+            "verbal_pre_transition_instruction": "Turn right onto Hẻm 191 Cống Quỳnh. Then Your destination will be on the left.",
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "street_names": [
+              "Hẻm 191 Cống Quỳnh"
+            ],
+            "time": 7.982,
+            "length": 0.024,
+            "cost": 16.384,
+            "begin_shape_index": 17,
+            "end_shape_index": 19,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          },
+          {
+            "type": 6,
+            "instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left.",
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 19,
+            "end_shape_index": 19,
+            "travel_mode": "drive",
+            "travel_type": "motorcycle"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 10.767619,
+          "min_lon": 106.68397,
+          "max_lat": 10.76922,
+          "max_lon": 106.685639,
+          "time": 90.978,
+          "length": 0.432,
+          "cost": 124.271
+        },
+        "shape": "ishpSmppnjElEhElj@vh@vCtCzC`DmInKK~EpDgAfI{JhEuFmDkDiEkEjJoVi@iDh@_BlH{TfAqD~CqJvIhAdAl@"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 10.767619,
+      "min_lon": 106.68397,
+      "max_lat": 10.76922,
+      "max_lon": 106.685639,
+      "time": 90.978,
+      "length": 0.432,
+      "cost": 124.271
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  },
+  "id": "valhalla_directions",
+  "decodedGeometry": [
+    [
+      10.769221,
+      106.685207
+    ],
+    [
+      10.769118,
+      106.685106
+    ],
+    [
+      10.768423,
+      106.684438
+    ],
+    [
+      10.768347,
+      106.684363
+    ],
+    [
+      10.768269,
+      106.684282
+    ],
+    [
+      10.768436,
+      106.684082
+    ],
+    [
+      10.768442,
+      106.68397
+    ],
+    [
+      10.768353,
+      106.684006
+    ],
+    [
+      10.768189,
+      106.684196
+    ],
+    [
+      10.768088,
+      106.684319
+    ],
+    [
+      10.768175,
+      106.684405
+    ],
+    [
+      10.768276,
+      106.684507
+    ],
+    [
+      10.768094,
+      106.684883
+    ],
+    [
+      10.768115,
+      106.684968
+    ],
+    [
+      10.768094,
+      106.685016
+    ],
+    [
+      10.767943,
+      106.685366
+    ],
+    [
+      10.767907,
+      106.685455
+    ],
+    [
+      10.767827,
+      106.68564
+    ],
+    [
+      10.767655,
+      106.685603
+    ],
+    [
+      10.76762,
+      106.68558
+    ]
+  ]
+}
